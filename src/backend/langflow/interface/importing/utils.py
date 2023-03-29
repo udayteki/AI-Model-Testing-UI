@@ -24,6 +24,7 @@ def import_by_type(_type: str, name: str) -> Any:
         "llms": import_llm,
         "tools": import_tool,
         "chains": import_chain,
+        "memories": import_memory,
     }
     return func_dict[_type](name)
 
@@ -61,3 +62,8 @@ def import_tool(tool: str) -> BaseTool:
 def import_chain(chain: str) -> Chain:
     """Import chain from chain name"""
     return import_class(f"langchain.chains.{chain}")
+
+
+def import_memory(memory: str) -> Chain:
+    """Import memory from memory name"""
+    return import_class(f"langchain.memory.{memory}")

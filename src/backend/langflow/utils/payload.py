@@ -28,14 +28,6 @@ def extract_input_variables(nodes):
     return nodes
 
 
-def get_root_node(graph):
-    """
-    Returns the root node of the template.
-    """
-    incoming_edges = {edge.source for edge in graph.edges}
-    return next((node for node in graph.nodes if node not in incoming_edges), None)
-
-
 def build_json(root, graph) -> Dict:
     if "node" not in root.data:
         # If the root node has no "node" key, then it has only one child,

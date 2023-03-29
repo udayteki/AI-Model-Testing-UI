@@ -6,7 +6,7 @@
 from copy import deepcopy
 import types
 from typing import Any, Dict, List, Optional, Union
-from langflow.utils import payload
+
 from langflow.interface.listing import ALL_TYPES_DICT, ALL_TOOLS_NAMES, TOOLS_DICT
 from langflow.interface import loading
 
@@ -288,6 +288,8 @@ class ChainNode(Node):
                 if isinstance(value, PromptNode):
                     # Build the PromptNode, passing the tools if available
                     self.params[key] = value.build(tools=tools, force=force)
+                elif isinstance(value, Node):
+                    self.params[key] = value.build(force=force)
 
             self._build()
         return deepcopy(self._built_object)
@@ -324,8 +326,17 @@ class Graph:
 
     def build(self) -> List[Node]:
         # Get root node
-        root_node = payload.get_root_node(self)
+        root_node: Node = self.get_root_node()
         return root_node.build()
+
+    def get_root_node(self) -> Node:
+        """
+        Returns the root node of the template.
+        """
+        incoming_edges = {edge.source for edge in self.edges}
+        return next(
+            (node for node in self.nodes if node not in incoming_edges), self.nodes[0]
+        )
 
     def get_node_neighbors(self, node: Node) -> Dict[Node, int]:
         neighbors: Dict[Node, int] = {}

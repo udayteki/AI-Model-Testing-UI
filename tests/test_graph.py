@@ -1,7 +1,7 @@
 import json
 from langflow.graph.graph import Edge, Graph, Node
 import pytest
-from langflow.utils.payload import build_json, get_root_node
+from langflow.utils.payload import build_json
 from langchain.agents import AgentExecutor
 
 # Test cases for the graph module
@@ -23,7 +23,7 @@ def test_get_nodes_with_target():
     graph = get_graph()
     assert isinstance(graph, Graph)
     # Get root node
-    root = get_root_node(graph)
+    root = graph.get_root_node()
     assert root is not None
     connected_nodes = graph.get_nodes_with_target(root)
     assert connected_nodes is not None
@@ -35,7 +35,7 @@ def test_get_node_neighbors_basic():
     graph = get_graph(basic=True)
     assert isinstance(graph, Graph)
     # Get root node
-    root = get_root_node(graph)
+    root = graph.get_root_node()
     assert root is not None
     neighbors = graph.get_node_neighbors(root)
     assert neighbors is not None
@@ -79,7 +79,7 @@ def test_get_node_neighbors_complex():
     graph = get_graph(basic=False)
     assert isinstance(graph, Graph)
     # Get root node
-    root = get_root_node(graph)
+    root = graph.get_root_node()
     assert root is not None
     neighbors = graph.get_nodes_with_target(root)
     assert neighbors is not None
@@ -153,14 +153,14 @@ def test_get_root_node():
     """Test getting root node"""
     graph = get_graph(basic=True)
     assert isinstance(graph, Graph)
-    root = get_root_node(graph)
+    root = graph.get_root_node()
     assert root is not None
     assert isinstance(root, Node)
     assert root.data["type"] == "ZeroShotAgent"
     # For complex example, the root node is a ZeroShotAgent too
     graph = get_graph(basic=False)
     assert isinstance(graph, Graph)
-    root = get_root_node(graph)
+    root = graph.get_root_node()
     assert root is not None
     assert isinstance(root, Node)
     assert root.data["type"] == "ZeroShotAgent"
@@ -170,7 +170,7 @@ def test_build_json():
     """Test building JSON from graph"""
     graph = get_graph()
     assert isinstance(graph, Graph)
-    root = get_root_node(graph)
+    root = graph.get_root_node()
     json_data = build_json(root, graph)
     assert isinstance(json_data, dict)
     assert json_data["_type"] == "zero-shot-react-description"
@@ -218,7 +218,7 @@ def test_build_params():
     # The matched_type attribute should be in the source_types attr
     assert all(edge.matched_type in edge.source_types for edge in graph.edges)
     # Get the root node
-    root = get_root_node(graph)
+    root = graph.get_root_node()
     # Root node is a ZeroShotAgent
     # which requires an llm_chain, allowed_tools and return_values
     assert isinstance(root.params, dict)
