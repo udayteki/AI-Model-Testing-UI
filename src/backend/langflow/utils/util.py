@@ -132,7 +132,7 @@ def get_base_classes(cls):
     else:
         result = []
         for base in bases:
-            if any(type in base.__module__ for type in ["pydantic", "abc"]):
+            if any(_type in base.__module__ for _type in ["pydantic", "abc"]):
                 continue
             result.append(base.__name__)
             result.extend(get_base_classes(base))
