@@ -25,14 +25,17 @@ from langflow.interface.types import get_type_list
 from langflow.utils import payload, util, validate
 
 
-def instantiate_class(node_type: str, base_type: str, params: Dict) -> Any:
+def instantiate_class(node_type: str, base_type: str, params: Dict, **kwargs) -> Any:
     """Instantiate class from module type and key, and params"""
     class_object = import_by_type(_type=base_type, name=node_type)
     if base_type == "agents":
         # We need to initialize it differently
         allowed_tools = params["allowed_tools"]
         llm_chain = params["llm_chain"]
-        return load_agent_executor(class_object, allowed_tools, llm_chain)
+        memory = params.get("memory")
+        return load_agent_executor(
+            class_object, allowed_tools, llm_chain, memory, **kwargs
+        )
     elif base_type == "tools" or node_type != "ZeroShotPrompt":
         return class_object(**params)
     elif node_type == "PythonFunction":
@@ -123,12 +126,17 @@ def load_agent_executor_from_config(
 
 
 def load_agent_executor(
-    agent_class: type[agent_module.Agent], allowed_tools, llm_chain, **kwargs
+    agent_class: type[agent_module.Agent],
+    allowed_tools,
+    llm_chain,
+    memory=None,
+    **kwargs,
 ):
     """Load agent executor from agent class, tools and chain"""
     tool_names = [tool.name for tool in allowed_tools]
     agent = agent_class(allowed_tools=tool_names, llm_chain=llm_chain)
     return AgentExecutor.from_agent_and_tools(
+        memory=memory,
         agent=agent,
         tools=allowed_tools,
         **kwargs,

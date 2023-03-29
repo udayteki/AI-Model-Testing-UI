@@ -10,28 +10,28 @@ llm_type_to_cls_dict["openai-chat"] = OpenAIChat
 
 ## Memory
 
-# from langchain.memory.buffer_window import ConversationBufferWindowMemory
-# from langchain.memory.chat_memory import ChatMessageHistory
-# from langchain.memory.combined import CombinedMemory
-# from langchain.memory.entity import ConversationEntityMemory
-# from langchain.memory.kg import ConversationKGMemory
-# from langchain.memory.readonly import ReadOnlySharedMemory
-# from langchain.memory.simple import SimpleMemory
-# from langchain.memory.summary import ConversationSummaryMemory
-# from langchain.memory.summary_buffer import ConversationSummaryBufferMemory
+from langchain.memory.buffer_window import ConversationBufferWindowMemory
+from langchain.memory.chat_memory import ChatMessageHistory
+from langchain.memory.combined import CombinedMemory
+from langchain.memory.entity import ConversationEntityMemory
+from langchain.memory.kg import ConversationKGMemory
+from langchain.memory.readonly import ReadOnlySharedMemory
+from langchain.memory.simple import SimpleMemory
+from langchain.memory.summary import ConversationSummaryMemory
+from langchain.memory.summary_buffer import ConversationSummaryBufferMemory
 
 memory_type_to_cls_dict: dict[str, Any] = {
-    # "CombinedMemory": CombinedMemory,
-    # "ConversationBufferWindowMemory": ConversationBufferWindowMemory,
+    "CombinedMemory": CombinedMemory,
+    "ConversationBufferWindowMemory": ConversationBufferWindowMemory,
     # "ConversationBufferMemory": ConversationBufferMemory,
-    # "SimpleMemory": SimpleMemory,
-    # "ConversationSummaryBufferMemory": ConversationSummaryBufferMemory,
-    # "ConversationKGMemory": ConversationKGMemory,
-    # "ConversationEntityMemory": ConversationEntityMemory,
-    # "ConversationSummaryMemory": ConversationSummaryMemory,
+    "SimpleMemory": SimpleMemory,
+    "ConversationSummaryBufferMemory": ConversationSummaryBufferMemory,
+    "ConversationKGMemory": ConversationKGMemory,
+    "ConversationEntityMemory": ConversationEntityMemory,
+    "ConversationSummaryMemory": ConversationSummaryMemory,
     # "ChatMessageHistory": ChatMessageHistory,
     # "ConversationStringBufferMemory": ConversationStringBufferMemory,
-    # "ReadOnlySharedMemory": ReadOnlySharedMemory,
+    "ReadOnlySharedMemory": ReadOnlySharedMemory,
 }
 
 

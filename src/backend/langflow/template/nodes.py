@@ -112,3 +112,13 @@ class ToolNode(FrontendNode):
 
     def to_dict(self):
         return super().to_dict()
+
+
+class MemoryNode(FrontendNode):
+    name: str = "Memory"
+    template: Template = Template(
+        type_name="memory",
+        fields=[],
+    )
+    description: str
+    base_classes: list[str] = ["memory"]

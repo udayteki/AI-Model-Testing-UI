@@ -178,21 +178,26 @@ class AgentNode(Node):
         super().__init__(data)
         self.tools: List[ToolNode] = []
         self.chains: List[ChainNode] = []
+        self.memory: Optional[MemoryNode] = None
 
-    def _set_tools_and_chains(self) -> None:
+    def _set_nodes(self) -> None:
         for edge in self.edges:
             source_node = edge.source
             if isinstance(source_node, ToolNode):
                 self.tools.append(source_node)
             elif isinstance(source_node, ChainNode):
                 self.chains.append(source_node)
+            elif isinstance(source_node, MemoryNode):
+                self.memory = source_node
 
     def build(self, force: bool = False) -> Any:
         if not self._built or force:
-            self._set_tools_and_chains()
+            self._set_nodes()
             # First, build the tools
             for tool_node in self.tools:
                 tool_node.build()
+            if self.memory is not None:
+                self.memory.build()
 
             # Next, build the chains and the rest
             for chain_node in self.chains:
@@ -241,6 +246,16 @@ class Edge:
 
 
 class ToolNode(Node):
+    def __init__(self, data: Dict):
+        super().__init__(data)
+
+    def build(self, force: bool = False) -> Any:
+        if not self._built or force:
+            self._build()
+        return deepcopy(self._built_object)
+
+
+class MemoryNode(Node):
     def __init__(self, data: Dict):
         super().__init__(data)
 
@@ -384,6 +399,8 @@ class Graph:
                 nodes.append(ChainNode(node))
             elif "tool" in node_type.lower() or node_lc_type in ALL_TOOLS_NAMES:
                 nodes.append(ToolNode(node))
+            elif "memory" in node_type.lower():
+                nodes.append(MemoryNode(node))
             else:
                 nodes.append(Node(node))
         return nodes
