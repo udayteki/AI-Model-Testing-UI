@@ -57,10 +57,12 @@ def list_tools():
     """List all load tools"""
 
     tools = []
-
     for tool in ALL_TOOLS_NAMES:
         tool_params = util.get_tool_params(util.get_tool_by_name(tool))
-        if tool_params and tool_params.get("name") in settings.tools or settings.dev:
+        if tool_params is not None and (
+            tool_params.get("name") in settings.tools
+            or (tool_params.get("name") and settings.dev)
+        ):
             tools.append(tool_params["name"])
 
     # Add Tool
