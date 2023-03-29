@@ -20,14 +20,7 @@ from langflow.utils import util
 
 def get_signature(name: str, object_type: str):
     """Get the signature of an object."""
-    return {
-        "chains": get_chain_signature,
-        "agents": get_agent_signature,
-        "prompts": get_prompt_signature,
-        "llms": get_llm_signature,
-        # "memories": get_memory_signature,
-        "tools": get_tool_signature,
-    }.get(object_type, lambda name: f"Invalid type: {name}")(name)
+    return ALL_SIGNATURES.get(object_type, lambda name: f"Invalid type: {name}")(name)
 
 
 def get_chain_signature(name: str):
@@ -168,3 +161,13 @@ def get_tool_signature(name: str):
         **tool_params,
         "base_classes": base_classes,
     }
+
+
+ALL_SIGNATURES = {
+    "chains": get_chain_signature,
+    "agents": get_agent_signature,
+    "prompts": get_prompt_signature,
+    "llms": get_llm_signature,
+    "memories": get_memory_signature,
+    "tools": get_tool_signature,
+}
