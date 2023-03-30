@@ -10,6 +10,7 @@ import {
   PaperClipIcon,
   QuestionMarkCircleIcon,
   FingerPrintIcon,
+  CircleStackIcon,
 } from "@heroicons/react/24/outline";
 import { Connection, Edge, Node, ReactFlowInstance } from "reactflow";
 import { FlowType } from "./types/flow";
@@ -77,6 +78,7 @@ export const nodeColors: {[char: string]: string} = {
   thought:"#272541",
   docloaders:"#FF9135",
   embeddings:"#59C3C3",
+  vectorstore:"#ECA400",
   unknown:"#9CA3AF"
 };
 
@@ -91,7 +93,8 @@ export const nodeNames:{[char: string]: string} = {
   chat: "Chat",
   docloaders:"Document Loaders",
   embeddings:"Embeddings",
-  unknown:"Unknown"
+  unknown:"Unknown",
+  vectorstore:"Vector Stores",
 };
 
 export const nodeIcons:{[char: string]: React.ForwardRefExoticComponent<React.SVGProps<SVGSVGElement>>} = {
@@ -106,6 +109,8 @@ export const nodeIcons:{[char: string]: React.ForwardRefExoticComponent<React.SV
   docloaders:Bars3CenterLeftIcon,
   unknown:QuestionMarkCircleIcon,
   embeddings:FingerPrintIcon,
+  vectorstore:CircleStackIcon
+
 
 };
 
