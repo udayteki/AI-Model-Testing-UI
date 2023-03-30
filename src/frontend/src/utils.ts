@@ -9,6 +9,7 @@ import {
   Bars3CenterLeftIcon,
   PaperClipIcon,
   QuestionMarkCircleIcon,
+  FingerPrintIcon,
 } from "@heroicons/react/24/outline";
 import { Connection, Edge, Node, ReactFlowInstance } from "reactflow";
 import { FlowType } from "./types/flow";
@@ -75,6 +76,7 @@ export const nodeColors: {[char: string]: string} = {
   chat: "#454173",
   thought:"#272541",
   docloaders:"#FF9135",
+  embeddings:"#59C3C3",
   unknown:"#9CA3AF"
 };
 
@@ -87,7 +89,8 @@ export const nodeNames:{[char: string]: string} = {
   memories: "Memories",
   advanced: "Advanced",
   chat: "Chat",
-  docloaders:"Document Loader",
+  docloaders:"Document Loaders",
+  embeddings:"Embeddings",
   unknown:"Unknown"
 };
 
@@ -101,7 +104,9 @@ export const nodeIcons:{[char: string]: React.ForwardRefExoticComponent<React.SV
   advanced: ComputerDesktopIcon,
   chat: Bars3CenterLeftIcon,
   docloaders:Bars3CenterLeftIcon,
-  unknown:QuestionMarkCircleIcon
+  unknown:QuestionMarkCircleIcon,
+  embeddings:FingerPrintIcon,
+
 };
 
 export const bgColors = {
