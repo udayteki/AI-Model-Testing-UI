@@ -280,3 +280,41 @@ class MemoryFrontendNode(FrontendNode):
             field.field_type = "int"
             field.value = 10
             field.display_name = "Memory Size"
+
+
+class CreatePlannerOpenAPIAgentNode(FrontendNode):
+    name: str = "create_openapi_agent"
+    template: Template = Template(
+        type_name="create_openapi_agent",
+        fields=[
+            TemplateField(
+                field_type="file",
+                required=True,
+                show=True,
+                name="api_spec",
+                value="",
+                suffixes=[".json", ".yaml", ".yml"],
+                fileTypes=["json", "yaml", "yml"],
+                display_name="API Spec",
+            ),
+            TemplateField(
+                field_type="BaseLanguageModel",
+                required=True,
+                show=True,
+                name="llm",
+                display_name="LLM",
+            ),
+            TemplateField(
+                field_type="TextRequestsWrapper",
+                required=True,
+                show=True,
+                name="requests_wrapper",
+                display_name="Requests Wrapper",
+            ),
+        ],
+    )
+    description: str = """Instantiate API planner and controller for a given spec."""
+    base_classes: list[str] = ["AgentExecutor"]
+
+    def to_dict(self):
+        return super().to_dict()

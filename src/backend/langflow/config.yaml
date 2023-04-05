@@ -12,6 +12,7 @@ agents:
   - JsonAgent
   - CSVAgent
   - initialize_agent
+  - create_openapi_agent
 
 prompts:
   - PromptTemplate

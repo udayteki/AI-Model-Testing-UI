@@ -11,6 +11,7 @@ from langchain.llms.base import BaseLLM
 from langchain.memory.chat_memory import BaseChatMemory
 from langchain.schema import BaseLanguageModel
 from langchain.tools.python.tool import PythonAstREPLTool
+from langchain.requests import TextRequestsWrapper
 
 
 class JsonAgent(AgentExecutor):
@@ -124,8 +125,33 @@ class InitializeAgent(AgentExecutor):
         return super().run(*args, **kwargs)
 
 
+class CreatePlannerOpenAPIAgent(AgentExecutor):
+    """Instantiate API planner and controller for a given spec."""
+
+    @staticmethod
+    def function_name():
+        return "create_openapi_agent"
+
+    @classmethod
+    def initialize(
+        cls, api_spec: dict, llm: BaseLLM, requests_wrapper: TextRequestsWrapper
+    ):
+        from langchain.agents.agent_toolkits.openapi import planner
+
+        return planner.create_openapi_agent(
+            api_spec=api_spec, llm=llm, requests_wrapper=requests_wrapper
+        )
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+    def run(self, *args, **kwargs):
+        return super().run(*args, **kwargs)
+
+
 CUSTOM_AGENTS = {
     "JsonAgent": JsonAgent,
     "CSVAgent": CSVAgent,
     "initialize_agent": InitializeAgent,
+    "create_openapi_agent": CreatePlannerOpenAPIAgent,
 }

@@ -19,7 +19,7 @@ class Node:
         self.id: str = data["id"]
         self._data = data
         self.edges: List[Edge] = []
-        self.base_type: Optional[str] = base_type
+        self.base_type = base_type
         self._parse_data()
         self._built_object = None
         self._built = False
