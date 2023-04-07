@@ -223,7 +223,7 @@ class FrontendNode(BaseModel):
             if key == "model_name":
                 field.options = constants.CHAT_OPENAI_MODELS
                 field.is_list = True
-        if "api_key" in key and "OpenAI" in str(name):
+        if "api_key" in key and "OpenAI" in str(name) and "Azure" not in str(name):
             field.display_name = "OpenAI API Key"
             field.required = True
             if field.value is None:

@@ -289,3 +289,17 @@ class MemoryFrontendNode(FrontendNode):
             field.field_type = "int"
             field.value = 10
             field.display_name = "Memory Size"
+
+
+class LLMFrontendNode(FrontendNode):
+    @staticmethod
+    def format_field(field: TemplateField, name: Optional[str] = None) -> None:
+        FrontendNode.format_field(field, name)
+
+        # Azure OpenAI processing
+        # https://python.langchain.com/en/latest/modules/models/llms/integrations/azure_openai_example.html
+        if field.name == "deployment_name":
+            field.required = True
+            field.show = True
+            field.value = ""
+            field.display_name = "Deployment Name"
