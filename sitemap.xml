@@ -2,92 +2,92 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://github.com/logspace-ai/langflow/</loc>
-         <lastmod>2023-05-03</lastmod>
+         <lastmod>2023-05-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/logspace-ai/langflow/GCP_DEPLOYMENT/</loc>
-         <lastmod>2023-05-03</lastmod>
+         <lastmod>2023-05-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/logspace-ai/langflow/conversation-buffer-memory/</loc>
-         <lastmod>2023-05-03</lastmod>
+         <lastmod>2023-05-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/logspace-ai/langflow/conversation-summary-memory/</loc>
-         <lastmod>2023-05-03</lastmod>
+         <lastmod>2023-05-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/logspace-ai/langflow/csv-loader/</loc>
-         <lastmod>2023-05-03</lastmod>
+         <lastmod>2023-05-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/logspace-ai/langflow/help-langflow/</loc>
-         <lastmod>2023-05-03</lastmod>
+         <lastmod>2023-05-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/logspace-ai/langflow/json-agent/</loc>
-         <lastmod>2023-05-03</lastmod>
+         <lastmod>2023-05-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/logspace-ai/langflow/llmchain/</loc>
-         <lastmod>2023-05-03</lastmod>
+         <lastmod>2023-05-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/logspace-ai/langflow/llms/</loc>
-         <lastmod>2023-05-03</lastmod>
+         <lastmod>2023-05-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/logspace-ai/langflow/midjourney-prompt-chain/</loc>
-         <lastmod>2023-05-03</lastmod>
+         <lastmod>2023-05-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/logspace-ai/langflow/multiple-vectorstores/</loc>
-         <lastmod>2023-05-03</lastmod>
+         <lastmod>2023-05-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/logspace-ai/langflow/py-pdf-loader/</loc>
-         <lastmod>2023-05-03</lastmod>
+         <lastmod>2023-05-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/logspace-ai/langflow/releases/</loc>
-         <lastmod>2023-05-03</lastmod>
+         <lastmod>2023-05-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/logspace-ai/langflow/series-character-chain/</loc>
-         <lastmod>2023-05-03</lastmod>
+         <lastmod>2023-05-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/logspace-ai/langflow/serp-api/</loc>
-         <lastmod>2023-05-03</lastmod>
+         <lastmod>2023-05-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/logspace-ai/langflow/time-travel-guide-chain/</loc>
-         <lastmod>2023-05-03</lastmod>
+         <lastmod>2023-05-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/logspace-ai/langflow/tool-pal-math/</loc>
-         <lastmod>2023-05-03</lastmod>
+         <lastmod>2023-05-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://github.com/logspace-ai/langflow/vectorstore-agent/</loc>
-         <lastmod>2023-05-03</lastmod>
+         <lastmod>2023-05-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
