@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://github.com/logspace-ai/langflow/</loc>
-         <lastmod>2023-05-08</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://github.com/logspace-ai/langflow/GCP_DEPLOYMENT/</loc>
          <lastmod>2023-05-08</lastmod>
          <changefreq>daily</changefreq>
@@ -61,6 +56,16 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://github.com/logspace-ai/langflow/langflow-examples/</loc>
+         <lastmod>2023-05-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/logspace-ai/langflow/langflow/</loc>
+         <lastmod>2023-05-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://github.com/logspace-ai/langflow/llmchain/</loc>
          <lastmod>2023-05-08</lastmod>
          <changefreq>daily</changefreq>
@@ -87,6 +92,11 @@
     </url>
     <url>
          <loc>https://github.com/logspace-ai/langflow/multiple-vectorstores/</loc>
+         <lastmod>2023-05-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/logspace-ai/langflow/news-api/</loc>
          <lastmod>2023-05-08</lastmod>
          <changefreq>daily</changefreq>
     </url>
