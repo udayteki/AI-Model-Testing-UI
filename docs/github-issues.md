@@ -4,6 +4,8 @@ Our [issues](https://github.com/logspace-ai/langflow/issues){.internal-link targ
 with bugs, improvements, and feature requests. There is a taxonomy of labels to help
 with sorting and discovery of issues of interest.
 
+<br>
+
 If you're looking for help with your code, consider posting a question on the
 [GitHub Discussions board](https://github.com/logspace-ai/langflow/discussions){.internal-link target=_blank}. Please
 understand that we won't be able to provide individual support via email. We

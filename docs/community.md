@@ -20,6 +20,8 @@ You can "watch" **LangFlow** in [GitHub](https://github.com/logspace-ai/langflow
 
 If you select "Watching" instead of "Releases only" you will receive notifications when someone creates a new issue or question. You can also specify that you only want to be notified about new issues, discussions, PRs, etc.
 
+<br>
+
 Then you can try and help them solve those questions.
 
 ---

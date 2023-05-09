@@ -20,6 +20,8 @@ More information about the [LLMChain](https://python.langchain.com/en/latest/mod
 
 The `PromptTemplate` is a simple template that takes in a product name and returns a prompt. The prompt is used to generate the response from the LLM.
 
+<br>
+
 Template:
     
 ``` txt
@@ -36,6 +38,10 @@ The name should be short, catchy, and easy to remember.
 What is a good name for a company that makes {product}?
 ```
 
+<br>
+
 For the example, we used `OpenAI` as the LLM, but you can use any LLM that has an API. Make sure to get the API key from the LLM provider. For example, [OpenAI](https://platform.openai.com/){.internal-link target=_blank} requires you to create an account to get your API key.
+
+<br>
 
 Check out the [OpenAI](https://platform.openai.com/docs/introduction/overview){.internal-link target=_blank} documentation to learn more about the API and the options that contain in the node.

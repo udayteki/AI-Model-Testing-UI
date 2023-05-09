@@ -19,8 +19,12 @@ For more information about [VectorStoreRouterAgent](https://python.langchain.com
 
 `TextLoader` loads text from a file.
 
+<br>
+
 File used:
 [Get txt file](data/state_of_the_union.txt){: state-of-the-union}
+
+<br>
 
 By using `WebBaseLoader`, you can load all text from webpages into a document format that we can use downstream. Web path used:
 ``` txt
@@ -49,12 +53,19 @@ Chunk overlap used:
 ``` txt
 200
 ```
+<br>
 
 The `OpenAIEmbeddings`, wrapper around [OpenAI Embeddings](https://platform.openai.com/docs/guides/embeddings/what-are-embeddings){.internal-link target=_blank} models. Make sure to get the API key from the LLM provider, in this case [OpenAI](https://platform.openai.com/){.internal-link target=_blank}.
 
+<br>
+
 `Chroma` vector databases can be used as vector stores to conduct a semantic search or to select examples, thanks to a wrapper around them.
 
-A `VectorStoreInfo` set information about the vector store, such as the name and description.
+<br>
+
+`VectorStoreInfo` set information about the vector store, such as the name and description.
+
+<br>
 
 **First VectorStoreInfo**
 
@@ -76,8 +87,15 @@ Description:
 ``` txt
 Information about the Ruff python linting library
 ```
+
+<br>
+
 The `VectorStoreRouterToolkit` is a toolkit that allows you to create a `VectorStoreRouter` agent. This allows it to route between vector stores.
 
+<br>
+
 For the example, we used `OpenAI` as the LLM, but you can use any LLM that has an API. Make sure to get the API key from the LLM provider. For example, [OpenAI](https://platform.openai.com/){.internal-link target=_blank} requires you to create an account to get your API key.
+
+<br>
 
 Check out the [OpenAI](https://platform.openai.com/docs/introduction/overview){.internal-link target=_blank} documentation to learn more about the API and the options that contain in the node.

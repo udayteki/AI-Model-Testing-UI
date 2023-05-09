@@ -3,6 +3,8 @@
 ## Node
 During the flow creation process, you will notice a colored circle <span style="color:green">o</span>. Components marked with a red asterisk <span style="color:red">*</span> must be connected. If you don't connect it, a red line will appear around it. Make the necessary connections to make your flow work. Hovering over the small circle will reveal the component that needs to be connected.
 
+<br>
+
 In some nodes, at the top of it, you will see a small gear icon ⚙️, which you can click to edit the component's parameters. You also have the option to delete it by clicking the trash can icon 🗑️.
 
 <br>
