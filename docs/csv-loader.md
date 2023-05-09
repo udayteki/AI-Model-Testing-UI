@@ -7,7 +7,7 @@ File path: [Get CSV file](data/organizations-100.csv){.internal-link target=_bla
 ![Description](img/single_node/csv_loader.png#only-light){width=60%}
 ![Description](img/single_node/csv_loader2.png#only-dark){width=60%}
 
-### ⛓️LangFlow example:
+### ⛓️LangFlow example
 
 ![Description](img/csv-loader.png#only-dark){width=80%}
 ![Description](img/csv-loader.png#only-light){width=80%}
