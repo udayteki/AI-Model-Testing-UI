@@ -1,5 +1,7 @@
 `VectorStoreRouterAgent` construct an agent that routes between vector stores.
 
+<br>
+
 ![Description](img/single_node/mult_vect.png#only-light){width=60%}
 ![Description](img/single_node/mult_vect2.png#only-dark){width=60%}
 
@@ -9,7 +11,11 @@ For more information about [VectorStoreRouterAgent](https://python.langchain.com
 ![Description](img/multiple-vectorstores.png#only-dark){width=80%}
 ![Description](img/multiple-vectorstores.png#only-light){width=80%}
 
+<br>
+
 [Get JSON file](data/Multiple_vectorstores.json){: .md-button download="Multiple_vectorstores"} 
+
+<br>
 
 `TextLoader` loads text from a file.
 

@@ -1,5 +1,7 @@
 The `LLMChain` is a simple chain that takes in a prompt template, formats it with the user input, and returns the response from an LLM.
 
+<br>
+
 ![Description](img/single_node/guideline2.png#only-dark){width=60%}
 ![Description](img/single_node/guideline.png#only-light){width=60%}
 
@@ -10,8 +12,11 @@ More information about the [LLMChain](https://python.langchain.com/en/latest/mod
 ![Description](img/llm-chain.png#only-dark){width=80%}
 ![Description](img/llm-chain.png#only-light){width=80%}
 
+<br>
+
 [Get JSON file](data/llm_chain.json){: .md-button download="llm_chain"} 
 
+<br>
 
 The `PromptTemplate` is a simple template that takes in a product name and returns a prompt. The prompt is used to generate the response from the LLM.
 

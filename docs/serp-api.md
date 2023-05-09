@@ -2,6 +2,8 @@
 
 The Serp API (Search Engine Results Page API) is an API (Application Programming Interface) that allows developers to scrape search engine results from various search engines such as Google, Bing, Yahoo, and more.
 
+<br>
+
 ![Description](img/single_node/serp.png#only-light){width=60%}
 ![Description](img/single_node/serp2.png#only-dark){width=60%}
 
@@ -11,7 +13,11 @@ To understand more, check out the LangChain [Search](https://python.langchain.co
 ![Description](img/serp-api.png#only-dark){width=80%}
 ![Description](img/serp-api.png#only-light){width=80%}
 
+<br>
+
 [Get JSON file](data/Serp_api.json){: .md-button download="Serp_api"} 
+
+<br>
 
 `ZeroShotPrompt` creates a prompt template for Zero-Shot Agent. You can set the *Prefix* and *Suffix*. The *Prefix* is the text that will be added before the input text. The *Suffix* is the text that will be added after the input text. In the example, we used the *default* that is automatically set..
 

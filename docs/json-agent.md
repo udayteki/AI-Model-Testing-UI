@@ -1,5 +1,7 @@
 The `JsonAgent` is an agent designed to interact with large JSON/dict objects.
 
+<br>
+
 ![Description](img/single_node/json_ag.png#only-light){width=60%}
 ![Description](img/single_node/json_ag2.png#only-dark){width=60%}
 
@@ -8,7 +10,11 @@ To understand more, check out the LangChain [JsonAgent](https://python.langchain
 ![Description](img/json-agent.png#only-dark){width=80%}
 ![Description](img/json-agent.png#only-light){width=80%}
 
+<br>
+
 [Get JSON file](data/Json_agent.json){: .md-button download="Json_agent"}
+
+<br>
 
 `JsonSpec` will define the **Max value length** of the input and output of the agent. You can get the **Path**  file [here](https://github.com/openai/openai-openapi/blob/master/openapi.yaml){.internal-link target=_blank}.
 

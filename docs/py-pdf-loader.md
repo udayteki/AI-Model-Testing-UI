@@ -2,6 +2,8 @@ With `PyPDFLoader`, you can load a PDF file with pypdf and chunks at a character
 
 File path: [Get PDF file](data/example.pdf){.internal-link target=_blank}
 
+<br>
+
 ![Description](img/single_node/pypdf.png#only-light){width=60%}
 ![Description](img/single_node/pypdf2.png#only-dark){width=60%}
 
@@ -11,7 +13,11 @@ You can check more about the [PyPDFLoader](https://python.langchain.com/en/lates
 ![Description](img/py-pdf-loader.png#only-dark){width=80%}
 ![Description](img/py-pdf-loader.png#only-light){width=80%}
 
+<br>
+
 [Get JSON file](data/Py_pdf_loader.json){: .md-button download="Py_pdf_loader"} 
+
+<br>
 
 `CharacterTextSplitter` implements splitting text based on characters. 
 

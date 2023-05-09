@@ -2,6 +2,8 @@ The `CSVLoader` loads a CSV file into a list of documents.
 
 File path: [Get CSV file](data/organizations-100.csv){.internal-link target=_blank}
 
+<br>
+
 ![Description](img/single_node/csv_loader.png#only-light){width=60%}
 ![Description](img/single_node/csv_loader2.png#only-dark){width=60%}
 
@@ -10,8 +12,11 @@ File path: [Get CSV file](data/organizations-100.csv){.internal-link target=_bla
 ![Description](img/csv-loader.png#only-dark){width=80%}
 ![Description](img/csv-loader.png#only-light){width=80%}
 
+<br>
+
 [Get JSON file](data/Csv_loader.json){: .md-button download="Csv_loader"} 
 
+<br>
 
 `CharacterTextSplitter` implements splitting text based on characters. 
 

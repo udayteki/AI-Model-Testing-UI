@@ -2,6 +2,8 @@
 
 Follow [@logspace_ai](https://twitter.com/logspace_ai){.internal-link target=_blank} on **Twitter** to get the latest news about **LangFlow**. 🐦
 
+<br>
+
 # ⭐️ Star **LangFlow** on GitHub
 
 You can "star" **LangFlow** in [GitHub](https://github.com/logspace-ai/langflow){.internal-link target=_blank}. ⭐️
@@ -9,6 +11,8 @@ You can "star" **LangFlow** in [GitHub](https://github.com/logspace-ai/langflow)
 By adding a star, other users will be able to find it more easily and see that it has been already useful for others.
 
 [![Star History Chart](https://api.star-history.com/svg?repos=logspace-ai/langflow&type=Timeline)](https://star-history.com/#logspace-ai/langflow&Date){.internal-link target=_blank} 
+
+<br>
 
 # 👀 Watch the GitHub repository for releases
 

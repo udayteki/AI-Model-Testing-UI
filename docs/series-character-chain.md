@@ -12,6 +12,8 @@ Series:
 The Lord of the Rings
 ```
 
+<br>
+
 ![Description](img/single_node/series_cha_chain2.png#only-dark){width=60%}
 ![Description](img/single_node/series_cha_chain.png#only-light){width=60%}
 
@@ -21,7 +23,11 @@ Play around with it and see how it works!
 ![Description](img/series-character-chain.png#only-dark){width=80%}
 ![Description](img/series-character-chain.png#only-light){width=80%}
 
+<br>
+
 [Get JSON file](data/Series_character_chain.json){: .md-button download="Series_character_chain"} 
+
+<br>
 
 For the example, we used `OpenAI` as the LLM, but you can use any LLM that has an API. Make sure to get the API key from the LLM provider. For example, [OpenAI](https://platform.openai.com/){.internal-link target=_blank} requires you to create an account to get your API key.
 

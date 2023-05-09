@@ -1,5 +1,7 @@
 The `VectoStoreAgent`is an agent designed to retrieve information from one or more vector stores, either with or without sources.
 
+<br>
+
 ![Description](img/single_node/vec_sto_agt.png#only-light){width=60%}
 ![Description](img/single_node/vec_sto_agt2.png#only-dark){width=60%}
 
@@ -10,7 +12,11 @@ Check out the [VectoStoreAgent](https://python.langchain.com/en/latest/modules/a
 ![Description](img/vectorstore-agent.png#only-dark){width=80%}
 ![Description](img/vectorstore-agent.png#only-light){width=80%}
 
+<br>
+
 [Get JSON file](data/Vectorstore_agent.json){: .md-button download="Vectorstore_agent"} 
+
+<br>
 
 By using `WebBaseLoader`, you can load all text from webpages into a document format that we can use downstream. Web path used:
 ``` txt
