@@ -22,8 +22,7 @@ For more information about [VectorStoreRouterAgent](https://python.langchain.com
 
 <br>
 
-File used:
-[Get txt file](data/state_of_the_union.txt){: state-of-the-union}
+[Download txt](data/state_of_the_union.txt){: .md-button download="state-of-the-union"}
 
 <br>
 

@@ -1,7 +1,5 @@
 With `PyPDFLoader`, you can load a PDF file with pypdf and chunks at a character level.
 
-File path: [Get PDF file](data/example.pdf){.internal-link target=\_blank}
-
 <br>
 
 ![Description](img/single_node/pypdf.png#only-light){width=60%}
@@ -17,6 +15,14 @@ You can check more about the [PyPDFLoader](https://python.langchain.com/en/lates
 <br>
 
 [Download Flow](data/Py_pdf_loader.json){: .md-button download="Py_pdf_loader"}
+
+<br>
+
+`File path:`
+
+<br>
+
+[Download PDF](data/example.pdf){: .md-button download="example.pdf"}
 
 <br>
 

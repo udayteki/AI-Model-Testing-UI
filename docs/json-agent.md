@@ -18,7 +18,9 @@ To understand more, check out the LangChain [JsonAgent](https://python.langchain
 
 <br>
 
-`JsonSpec` will define the **Max value length** of the input and output of the agent. You can get the **Path** file [here](https://github.com/openai/openai-openapi/blob/master/openapi.yaml){.internal-link target=\_blank}.
+`JsonSpec` will define the **Max value length** of the input and output of the agent. You can get the **Path** file [here](https://raw.githubusercontent.com/openai/openai-openapi/master/openapi.yaml){.internal-link target=\_blank}.
+
+<br>
 
 Max value length:
 

@@ -1,11 +1,11 @@
 The `CSVLoader` loads a CSV file into a list of documents.
 
-File path: [Get CSV file](data/organizations-100.csv){.internal-link target=\_blank}
-
 <br>
 
 ![Description](img/single_node/csv_loader.png#only-light){width=60%}
 ![Description](img/single_node/csv_loader2.png#only-dark){width=60%}
+
+Check out more about the `CSVLoader` in [LangChain](https://python.langchain.com/en/latest/modules/indexes/document_loaders/examples/csv.html?highlight=CSV%20loader){.internal-link target=\_blank} documentation.
 
 ### ⛓️LangFlow example
 
@@ -15,6 +15,14 @@ File path: [Get CSV file](data/organizations-100.csv){.internal-link target=\_bl
 <br>
 
 [Download Flow](data/Csv_loader.json){: .md-button download="Csv_loader"}
+
+<br>
+
+`File path:`
+
+<br>
+
+[Download CSV](data/organizations-100.csv){: .md-button download="organizations-100.csv"}
 
 <br>
 
