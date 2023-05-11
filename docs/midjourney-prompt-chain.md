@@ -2,8 +2,8 @@ With `MidJourneyPromptChain`, you can use it to generate new MidJourney prompts.
 
 <br>
 
-![Description](img/single_node/mid_jour_chain2.png#only-dark){width=60%}
-![Description](img/single_node/mid_jour_chain.png#only-light){width=60%}
+![Description](img/single_node/mid_jour_chain2.png#only-dark){width=50%}
+![Description](img/single_node/mid_jour_chain.png#only-light){width=50%}
 
 ### ⛓️LangFlow example
 

@@ -2,8 +2,8 @@
 
 <br>
 
-![Description](img/single_node/pal_math.png#only-light){width=60%}
-![Description](img/single_node/pal_math2.png#only-dark){width=60%}
+![Description](img/single_node/pal_math.png#only-light){width=50%}
+![Description](img/single_node/pal_math2.png#only-dark){width=50%}
 
 To understand more, check out the LangChain [PAL-MATH](https://python.langchain.com/en/latest/modules/chains/examples/pal.html?highlight=PAL-MATH){.internal-link target=\_blank} documentation.
 

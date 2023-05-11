@@ -2,8 +2,8 @@ The `LLMChain` is a simple chain that takes in a prompt template, formats it wit
 
 <br>
 
-![Description](img/single_node/guideline2.png#only-dark){width=60%}
-![Description](img/single_node/guideline.png#only-light){width=60%}
+![Description](img/single_node/guideline2.png#only-dark){width=50%}
+![Description](img/single_node/guideline.png#only-light){width=50%}
 
 More information about the [LLMChain](https://python.langchain.com/en/latest/modules/chains/generic/llm_chain.html){.internal-link target=\_blank} can be found in the LangChain documentation.
 

@@ -2,8 +2,8 @@
 
 <br>
 
-![Description](img/single_node/time_travel2.png#only-dark){width=60%}
-![Description](img/single_node/time_travel.png#only-light){width=60%}
+![Description](img/single_node/time_travel2.png#only-dark){width=50%}
+![Description](img/single_node/time_travel.png#only-light){width=50%}
 
 ### ⛓️LangFlow example
 

@@ -6,8 +6,8 @@ The Serp API (Search Engine Results Page API) is an API (Application Programming
 
 <br>
 
-![Description](img/single_node/serp.png#only-light){width=60%}
-![Description](img/single_node/serp2.png#only-dark){width=60%}
+![Description](img/single_node/serp.png#only-light){width=50%}
+![Description](img/single_node/serp2.png#only-dark){width=50%}
 
 To understand more, check out the LangChain [Search](https://python.langchain.com/en/latest/modules/agents/tools/examples/google_serper.html){.internal-link target=\_blank} documentation.
 

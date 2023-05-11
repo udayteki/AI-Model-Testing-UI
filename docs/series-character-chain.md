@@ -16,8 +16,8 @@ The Lord of the Rings
 
 <br>
 
-![Description](img/single_node/series_cha_chain2.png#only-dark){width=60%}
-![Description](img/single_node/series_cha_chain.png#only-light){width=60%}
+![Description](img/single_node/series_cha_chain2.png#only-dark){width=50%}
+![Description](img/single_node/series_cha_chain.png#only-light){width=50%}
 
 Play around with it and see how it works!
 

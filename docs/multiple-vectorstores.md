@@ -2,8 +2,8 @@
 
 <br>
 
-![Description](img/single_node/mult_vect.png#only-light){width=60%}
-![Description](img/single_node/mult_vect2.png#only-dark){width=60%}
+![Description](img/single_node/mult_vect.png#only-light){width=50%}
+![Description](img/single_node/mult_vect2.png#only-dark){width=50%}
 
 For more information about [VectorStoreRouterAgent](https://python.langchain.com/en/latest/modules/agents/agent_executors/examples/agent_vectorstore.html?highlight=Router){.internal-link target=\_blank}, check out the LangChain documentation.
 

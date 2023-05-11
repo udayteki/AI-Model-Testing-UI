@@ -2,8 +2,8 @@ The `VectoStoreAgent`is an agent designed to retrieve information from one or mo
 
 <br>
 
-![Description](img/single_node/vec_sto_agt.png#only-light){width=60%}
-![Description](img/single_node/vec_sto_agt2.png#only-dark){width=60%}
+![Description](img/single_node/vec_sto_agt.png#only-light){width=50%}
+![Description](img/single_node/vec_sto_agt2.png#only-dark){width=50%}
 
 Check out the [VectoStoreAgent](https://python.langchain.com/en/latest/modules/agents/toolkits/examples/vectorstore.html){.internal-link target=\_blank} in the LangChain documentation.
 

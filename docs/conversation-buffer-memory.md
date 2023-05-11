@@ -2,19 +2,21 @@
 
 <br>
 
-![Description](img/single_node/conv_buf_mem.png#only-light){width=60%}
-![Description](img/single_node/conv_buf_mem2.png#only-dark){width=60%}
+![Description](img/single_node/conv_buf_mem.png#only-light){width=50%}
+![Description](img/single_node/conv_buf_mem2.png#only-dark){width=50%}
 
-Learn more about the [ConversationBufferMemory](https://python.langchain.com/en/latest/modules/memory/types/buffer.html){.internal-link target=_blank} in the LangChain documentation.
+Learn more about the [ConversationBufferMemory](https://python.langchain.com/en/latest/modules/memory/types/buffer.html){.internal-link target=\_blank} in the LangChain documentation.
 
 ### ⛓️LangFlow example
+
 <!-- <figure markdown> -->
+
 ![Description](img/conversation-buffer-memory.png#only-dark){width=80%}
 ![Description](img/conversation-buffer-memory.png#only-light){width=80%}
 
 <br>
 
-[Download Flow](data/Conversation_buffer_memory.json){: .md-button download="Conversation_buffer_memory"} 
+[Download Flow](data/Conversation_buffer_memory.json){: .md-button download="Conversation_buffer_memory"}
 
 <br>
 
@@ -22,14 +24,12 @@ Learn more about the [ConversationBufferMemory](https://python.langchain.com/en/
 
 <br>
 
-Output Key used the default: ``` response ``` and Input Key used the default: ``` input ```.
+Output Key used the default: `response` and Input Key used the default: `input`.
 
 <br>
 
-In the LangFlow example, we used `ChatOpenAI` as the LLM, but you can use any LLM that has an API. Make sure to get the API key from the LLM provider. For example, [ChatOpenAI](https://platform.openai.com/){.internal-link target=_blank} requires you to create an account to get your API key.
+In the LangFlow example, we used `ChatOpenAI` as the LLM, but you can use any LLM that has an API. Make sure to get the API key from the LLM provider. For example, [ChatOpenAI](https://platform.openai.com/){.internal-link target=\_blank} requires you to create an account to get your API key.
 
 <br>
 
-Check out the [ChatOpenAI](https://platform.openai.com/docs/introduction/overview){.internal-link target=_blank} documentation to learn more about the API and the options that contain in the node.
-
-
+Check out the [ChatOpenAI](https://platform.openai.com/docs/introduction/overview){.internal-link target=\_blank} documentation to learn more about the API and the options that contain in the node.

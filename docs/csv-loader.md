@@ -2,8 +2,8 @@ The `CSVLoader` loads a CSV file into a list of documents.
 
 <br>
 
-![Description](img/single_node/csv_loader.png#only-light){width=60%}
-![Description](img/single_node/csv_loader2.png#only-dark){width=60%}
+![Description](img/single_node/csv_loader.png#only-light){width=50%}
+![Description](img/single_node/csv_loader2.png#only-dark){width=50%}
 
 Check out more about the `CSVLoader` in [LangChain](https://python.langchain.com/en/latest/modules/indexes/document_loaders/examples/csv.html?highlight=CSV%20loader){.internal-link target=\_blank} documentation.
 

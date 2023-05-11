@@ -2,26 +2,27 @@
 
 <br>
 
-![Description](img/single_node/con_sum_mem.png#only-light){width=60%}
-![Description](img/single_node/conv_sum_me2.png#only-dark){width=60%}
+![Description](img/single_node/con_sum_mem.png#only-light){width=50%}
+![Description](img/single_node/conv_sum_me2.png#only-dark){width=50%}
 
-To understand more, check out the LangChain [ConversationSummaryMemory](https://python.langchain.com/en/latest/modules/memory/types/summary.html){.internal-link target=_blank} documentation.
+To understand more, check out the LangChain [ConversationSummaryMemory](https://python.langchain.com/en/latest/modules/memory/types/summary.html){.internal-link target=\_blank} documentation.
 
 ### ⛓️LangFlow example
+
 ![Description](img/conversation-summary-memory.png#only-dark){width=80%}
 ![Description](img/conversation-summary-memory.png#only-light){width=80%}
 
 <br>
 
-[Download Flow](data/Conversation_summary_memory.json){: .md-button download="Conversation_summary_memory"} 
+[Download Flow](data/Conversation_summary_memory.json){: .md-button download="Conversation_summary_memory"}
 
 <br>
 
-In the LangFlow example, we used `ChatOpenAI` as the LLM, but you can use any LLM that has an API. Make sure to get the API key from the LLM provider. For example, [ChatOpenAI](https://platform.openai.com/){.internal-link target=_blank} requires you to create an account to get your API key.
+In the LangFlow example, we used `ChatOpenAI` as the LLM, but you can use any LLM that has an API. Make sure to get the API key from the LLM provider. For example, [ChatOpenAI](https://platform.openai.com/){.internal-link target=\_blank} requires you to create an account to get your API key.
 
 <br>
 
-Check out the [ChatOpenAI](https://platform.openai.com/docs/introduction/overview){.internal-link target=_blank} documentation to learn more about the API and the options that contain in the node.
+Check out the [ChatOpenAI](https://platform.openai.com/docs/introduction/overview){.internal-link target=\_blank} documentation to learn more about the API and the options that contain in the node.
 
 <br>
 
@@ -29,4 +30,4 @@ Check out the [ChatOpenAI](https://platform.openai.com/docs/introduction/overvie
 
 <br>
 
-Output Key used the default: ``` response ``` and Input Key used the default: ``` input ```.
+Output Key used the default: `response` and Input Key used the default: `input`.

@@ -2,8 +2,8 @@ With `PyPDFLoader`, you can load a PDF file with pypdf and chunks at a character
 
 <br>
 
-![Description](img/single_node/pypdf.png#only-light){width=60%}
-![Description](img/single_node/pypdf2.png#only-dark){width=60%}
+![Description](img/single_node/pypdf.png#only-light){width=50%}
+![Description](img/single_node/pypdf2.png#only-dark){width=50%}
 
 You can check more about the [PyPDFLoader](https://python.langchain.com/en/latest/modules/indexes/document_loaders/examples/pdf.html?highlight=PDF){.internal-link target=\_blank} in the LangChain documentation.
 
