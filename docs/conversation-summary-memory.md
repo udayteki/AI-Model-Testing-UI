@@ -13,7 +13,7 @@ To understand more, check out the LangChain [ConversationSummaryMemory](https://
 
 <br>
 
-[Get JSON file](data/Conversation_summary_memory.json){: .md-button download="Conversation_summary_memory"} 
+[Download Flow](data/Conversation_summary_memory.json){: .md-button download="Conversation_summary_memory"} 
 
 <br>
 

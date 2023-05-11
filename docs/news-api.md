@@ -20,7 +20,7 @@
 
 <br>
 
-[Get JSON file](data/News_api.json){: .md-button download="News_api"}
+[Download Flow](data/News_api.json){: .md-button download="News_api"}
 
 <br>
 

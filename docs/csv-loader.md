@@ -1,6 +1,6 @@
 The `CSVLoader` loads a CSV file into a list of documents.
 
-File path: [Get CSV file](data/organizations-100.csv){.internal-link target=_blank}
+File path: [Get CSV file](data/organizations-100.csv){.internal-link target=\_blank}
 
 <br>
 
@@ -14,11 +14,11 @@ File path: [Get CSV file](data/organizations-100.csv){.internal-link target=_bla
 
 <br>
 
-[Get JSON file](data/Csv_loader.json){: .md-button download="Csv_loader"} 
+[Download Flow](data/Csv_loader.json){: .md-button download="Csv_loader"}
 
 <br>
 
-`CharacterTextSplitter` implements splitting text based on characters. 
+`CharacterTextSplitter` implements splitting text based on characters.
 
 Text splitters operate as follows:
 
@@ -29,17 +29,20 @@ Text splitters operate as follows:
 - Once a chunk reaches the desired size, make it its piece of text and create a new chunk with some overlap to maintain context.
 
 Separator used:
-``` txt
+
+```txt
 .
 ```
 
 Chunk size used:
-``` txt
+
+```txt
 4000
 ```
 
 Chunk overlap used:
-``` txt
+
+```txt
 200
 ```
 
@@ -48,11 +51,11 @@ For the example, we used `OpenAI` as the LLM, but you can use any LLM that has a
 
 <br>
 
-Check out the [OpenAI](https://platform.openai.com/docs/introduction/overview){.internal-link target=_blank} documentation to learn more about the API and the options that contain in the node.
+Check out the [OpenAI](https://platform.openai.com/docs/introduction/overview){.internal-link target=\_blank} documentation to learn more about the API and the options that contain in the node.
 
 <br>
 
-The `OpenAIEmbeddings`, wrapper around [OpenAI Embeddings](https://platform.openai.com/docs/guides/embeddings/what-are-embeddings){.internal-link target=_blank} models. Make sure to get the API key from the LLM provider, in this case [OpenAI](https://platform.openai.com/){.internal-link target=_blank}.
+The `OpenAIEmbeddings`, wrapper around [OpenAI Embeddings](https://platform.openai.com/docs/guides/embeddings/what-are-embeddings){.internal-link target=\_blank} models. Make sure to get the API key from the LLM provider, in this case [OpenAI](https://platform.openai.com/){.internal-link target=\_blank}.
 
 <br>
 
@@ -63,11 +66,14 @@ The `OpenAIEmbeddings`, wrapper around [OpenAI Embeddings](https://platform.open
 A `VectorStoreInfo` set information about the vector store, such as the name and description.
 
 Name used:
-``` txt
+
+```txt
 organizations-100
 ```
+
 Description used:
-``` txt
+
+```txt
 A table contains 100 companies.
 ```
 

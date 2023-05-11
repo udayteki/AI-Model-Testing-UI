@@ -5,7 +5,7 @@ The `LLMChain` is a simple chain that takes in a prompt template, formats it wit
 ![Description](img/single_node/guideline2.png#only-dark){width=60%}
 ![Description](img/single_node/guideline.png#only-light){width=60%}
 
-More information about the [LLMChain](https://python.langchain.com/en/latest/modules/chains/generic/llm_chain.html){.internal-link target=_blank} can be found in the LangChain documentation.
+More information about the [LLMChain](https://python.langchain.com/en/latest/modules/chains/generic/llm_chain.html){.internal-link target=\_blank} can be found in the LangChain documentation.
 
 ### ⛓️LangFlow example
 
@@ -14,7 +14,7 @@ More information about the [LLMChain](https://python.langchain.com/en/latest/mod
 
 <br>
 
-[Get JSON file](data/llm_chain.json){: .md-button download="llm_chain"} 
+[Download Flow](data/llm_chain.json){: .md-button download="llm_chain"}
 
 <br>
 
@@ -23,8 +23,8 @@ The `PromptTemplate` is a simple template that takes in a product name and retur
 <br>
 
 Template:
-    
-``` txt
+
+```txt
 I want you to act as a naming consultant for new companies.
 
 Here are some examples of good company names:
@@ -40,8 +40,8 @@ What is a good name for a company that makes {product}?
 
 <br>
 
-For the example, we used `OpenAI` as the LLM, but you can use any LLM that has an API. Make sure to get the API key from the LLM provider. For example, [OpenAI](https://platform.openai.com/){.internal-link target=_blank} requires you to create an account to get your API key.
+For the example, we used `OpenAI` as the LLM, but you can use any LLM that has an API. Make sure to get the API key from the LLM provider. For example, [OpenAI](https://platform.openai.com/){.internal-link target=\_blank} requires you to create an account to get your API key.
 
 <br>
 
-Check out the [OpenAI](https://platform.openai.com/docs/introduction/overview){.internal-link target=_blank} documentation to learn more about the API and the options that contain in the node.
+Check out the [OpenAI](https://platform.openai.com/docs/introduction/overview){.internal-link target=\_blank} documentation to learn more about the API and the options that contain in the node.

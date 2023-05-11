@@ -1,13 +1,14 @@
 With `PyPDFLoader`, you can load a PDF file with pypdf and chunks at a character level.
 
-File path: [Get PDF file](data/example.pdf){.internal-link target=_blank}
+File path: [Get PDF file](data/example.pdf){.internal-link target=\_blank}
 
 <br>
 
 ![Description](img/single_node/pypdf.png#only-light){width=60%}
 ![Description](img/single_node/pypdf2.png#only-dark){width=60%}
 
-You can check more about the [PyPDFLoader](https://python.langchain.com/en/latest/modules/indexes/document_loaders/examples/pdf.html?highlight=PDF){.internal-link target=_blank} in the LangChain documentation.
+You can check more about the [PyPDFLoader](https://python.langchain.com/en/latest/modules/indexes/document_loaders/examples/pdf.html?highlight=PDF){.internal-link target=\_blank} in the LangChain documentation.
+
 ### ⛓️LangFlow example
 
 ![Description](img/py-pdf-loader.png#only-dark){width=80%}
@@ -15,11 +16,11 @@ You can check more about the [PyPDFLoader](https://python.langchain.com/en/lates
 
 <br>
 
-[Get JSON file](data/Py_pdf_loader.json){: .md-button download="Py_pdf_loader"} 
+[Download Flow](data/Py_pdf_loader.json){: .md-button download="Py_pdf_loader"}
 
 <br>
 
-`CharacterTextSplitter` implements splitting text based on characters. 
+`CharacterTextSplitter` implements splitting text based on characters.
 
 Text splitters operate as follows:
 
@@ -30,21 +31,24 @@ Text splitters operate as follows:
 - Once a chunk reaches the desired size, make it its piece of text and create a new chunk with some overlap to maintain context.
 
 Separator used:
-``` txt
+
+```txt
 .
 ```
 
 Chunk size used:
-``` txt
+
+```txt
 1000
 ```
 
 Chunk overlap used:
-``` txt
+
+```txt
 200
 ```
 
-The `OpenAIEmbeddings`, wrapper around [OpenAI Embeddings](https://platform.openai.com/docs/guides/embeddings/what-are-embeddings){.internal-link target=_blank} models. Make sure to get the API key from the LLM provider, in this case [OpenAI](https://platform.openai.com/){.internal-link target=_blank}.
+The `OpenAIEmbeddings`, wrapper around [OpenAI Embeddings](https://platform.openai.com/docs/guides/embeddings/what-are-embeddings){.internal-link target=\_blank} models. Make sure to get the API key from the LLM provider, in this case [OpenAI](https://platform.openai.com/){.internal-link target=\_blank}.
 
 <br>
 
@@ -55,19 +59,22 @@ The `OpenAIEmbeddings`, wrapper around [OpenAI Embeddings](https://platform.open
 A `VectorStoreInfo` set information about the vector store, such as the name and description.
 
 Name used:
-``` txt
+
+```txt
 example
 ```
+
 Description used:
-``` txt
+
+```txt
 USENIX Example Paper.
 ```
 
-For the example, we used `OpenAI` as the LLM, but you can use any LLM that has an API. Make sure to get the API key from the LLM provider. For example, [OpenAI](https://platform.openai.com/){.internal-link target=_blank} requires you to create an account to get your API key.
+For the example, we used `OpenAI` as the LLM, but you can use any LLM that has an API. Make sure to get the API key from the LLM provider. For example, [OpenAI](https://platform.openai.com/){.internal-link target=\_blank} requires you to create an account to get your API key.
 
 <br>
 
-Check out the [OpenAI](https://platform.openai.com/docs/introduction/overview){.internal-link target=_blank} documentation to learn more about the API and the options that contain in the node.
+Check out the [OpenAI](https://platform.openai.com/docs/introduction/overview){.internal-link target=\_blank} documentation to learn more about the API and the options that contain in the node.
 
 <br>
 

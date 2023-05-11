@@ -14,7 +14,7 @@ Learn more about the [ConversationBufferMemory](https://python.langchain.com/en/
 
 <br>
 
-[Get JSON file](data/Conversation_buffer_memory.json){: .md-button download="Conversation_buffer_memory"} 
+[Download Flow](data/Conversation_buffer_memory.json){: .md-button download="Conversation_buffer_memory"} 
 
 <br>
 

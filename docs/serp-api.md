@@ -1,4 +1,4 @@
-`Search` is a search engine useful to answer questions about current events. To use the Serp API, you first need to sign up [Serp API](https://serpapi.com/){.internal-link target=_blank} for an API key on the provider's website.
+`Search` is a search engine useful to answer questions about current events. To use the Serp API, you first need to sign up [Serp API](https://serpapi.com/){.internal-link target=\_blank} for an API key on the provider's website.
 
 <br>
 
@@ -9,7 +9,8 @@ The Serp API (Search Engine Results Page API) is an API (Application Programming
 ![Description](img/single_node/serp.png#only-light){width=60%}
 ![Description](img/single_node/serp2.png#only-dark){width=60%}
 
-To understand more, check out the LangChain [Search](https://python.langchain.com/en/latest/modules/agents/tools/examples/google_serper.html){.internal-link target=_blank} documentation.
+To understand more, check out the LangChain [Search](https://python.langchain.com/en/latest/modules/agents/tools/examples/google_serper.html){.internal-link target=\_blank} documentation.
+
 ### ⛓️LangFlow example
 
 ![Description](img/serp-api.png#only-dark){width=80%}
@@ -17,19 +18,19 @@ To understand more, check out the LangChain [Search](https://python.langchain.co
 
 <br>
 
-[Get JSON file](data/Serp_api.json){: .md-button download="Serp_api"} 
+[Download Flow](data/Serp_api.json){: .md-button download="Serp_api"}
 
 <br>
 
-`ZeroShotPrompt` creates a prompt template for Zero-Shot Agent. You can set the *Prefix* and *Suffix*. The *Prefix* is the text that will be added before the input text. The *Suffix* is the text that will be added after the input text. In the example, we used the *default* that is automatically set.
+`ZeroShotPrompt` creates a prompt template for Zero-Shot Agent. You can set the _Prefix_ and _Suffix_. The _Prefix_ is the text that will be added before the input text. The _Suffix_ is the text that will be added after the input text. In the example, we used the _default_ that is automatically set.
 
 <br>
 
-For the example, we used `OpenAI` as the LLM, but you can use any LLM that has an API. Make sure to get the API key from the LLM provider. For example, [OpenAI](https://platform.openai.com/){.internal-link target=_blank} requires you to create an account to get your API key.
+For the example, we used `OpenAI` as the LLM, but you can use any LLM that has an API. Make sure to get the API key from the LLM provider. For example, [OpenAI](https://platform.openai.com/){.internal-link target=\_blank} requires you to create an account to get your API key.
 
 <br>
 
-Check out the [OpenAI](https://platform.openai.com/docs/introduction/overview){.internal-link target=_blank} documentation to learn more about the API and the options that contain in the node.
+Check out the [OpenAI](https://platform.openai.com/docs/introduction/overview){.internal-link target=\_blank} documentation to learn more about the API and the options that contain in the node.
 
 <br>
 
