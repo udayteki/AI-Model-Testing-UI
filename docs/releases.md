@@ -1,4 +1,55 @@
 # Latest Changes
+🎉 We're thrilled to announce our latest release, packed with exciting updates and improvements to enhance your experience. Here's what you can look forward to:
+
+<br>
+
+1️⃣ Streaming Capability: Experience the power of real-time responses! Our new streaming feature allows you to receive immediate feedback as the model processes your input. It adds a dynamic element to your conversations, making them more engaging and interactive.
+
+<br>
+
+
+2️⃣ Cache Manager: Sharing and accessing objects between tools has never been easier. With our new cache manager, you can seamlessly store and retrieve information throughout your workflow. It's a convenient way to keep track of important data and reference it in the chat.
+
+<br>
+
+3️⃣ API Access (Work in Progress): We've started working on API access, which will enable you to integrate our platform with your own applications and workflows. While it's still a work in progress, this feature opens up exciting possibilities for customization and integration.
+
+<br>
+
+4️⃣ UI Enhancements: We've made various user interface improvements to create a more seamless and enjoyable experience. From fixing bugs to refining visuals, we're committed to providing a polished interface that enhances your workflow.
+
+<br>
+
+We're constantly striving to improve our platform and provide you with the best tools and features. Stay tuned for more updates as we continue to evolve and meet your needs. Thank you for being a part of our journey! ✨🚀
+
+
+## v0.0.69
+## What's Changed
+* disable password copy by @CodeAunt in https://github.com/logspace-ai/langflow/pull/224
+* Fix auto update by @anovazzi1 in https://github.com/logspace-ai/langflow/pull/238
+* UI improvements by @anovazzi1 in https://github.com/logspace-ai/langflow/pull/240
+* Hot fixes by @anovazzi1 in https://github.com/logspace-ai/langflow/pull/244
+* Tool_fixes by @ogabrielluiz in https://github.com/logspace-ai/langflow/pull/258
+* Better_predict by @ogabrielluiz in https://github.com/logspace-ai/langflow/pull/267
+* change line endings to linux. by @bobsburgers in https://github.com/logspace-ai/langflow/pull/254
+* Copy Paste, Undo and Redo implemented by @lucaseduoli in https://github.com/logspace-ai/langflow/pull/253
+* Streaming, Chat Markdown, and CacheManager by @ogabrielluiz in https://github.com/logspace-ai/langflow/pull/282
+* Dark Mode and API Modal by @lucaseduoli in https://github.com/logspace-ai/langflow/pull/284
+* fixed copy and paste bug by @anovazzi1 in https://github.com/logspace-ai/langflow/pull/286
+* Websocket, cache_manager, API access, Dark mode fixes by @ogabrielluiz in https://github.com/logspace-ai/langflow/pull/285
+
+## New Contributors
+* @CodeAunt made their first contribution in https://github.com/logspace-ai/langflow/pull/224
+* @bobsburgers made their first contribution in https://github.com/logspace-ai/langflow/pull/254
+
+**Full Changelog**: https://github.com/logspace-ai/langflow/compare/v0.0.68...v0.0.69
+
+---
+
+## v0.0.68
+
+
+### Highlights
 
 :sparkles: Release: Chat and Cache Improvements, Websocket Integration, and Dark Mode Enhancements :crescent_moon:
 This release brings a series of new features and improvements, including:
@@ -20,10 +71,6 @@ This release brings a series of new features and improvements, including:
     - Implemented unique IDs for flow management
     - Sorted sidebar items for better organization
     - Removed unused imports and optimized codebase
----
-
-## v0.0.68
-
 ### What's Changed
 * refactor(loading.py): use get method to set allowed_tools to an empty list if it is not present in params dictionary by @ogabrielluiz in https://github.com/logspace-ai/langflow/pull/237
 
