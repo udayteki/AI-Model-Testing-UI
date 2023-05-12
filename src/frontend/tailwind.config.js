@@ -57,6 +57,11 @@ module.exports = {
           "font-family": "text-security-disc"
 
         },
+        '.stop': {
+          '-webkit-animation-play-state': 'paused',
+          '-moz-animation-play-state': 'paused',
+          'animation-play-state': 'paused',
+        },
         '.custom-scroll':{
           '&::-webkit-scrollbar': {
             'width': '8px',
@@ -73,6 +78,6 @@ module.exports = {
         }
       }
     })
-    }),require('@tailwindcss/line-clamp')
+    }),require('@tailwindcss/line-clamp'),require('@tailwindcss/typography'),
   ],
 };
