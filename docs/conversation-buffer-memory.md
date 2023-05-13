@@ -11,7 +11,7 @@ Learn more about the [ConversationBufferMemory](https://python.langchain.com/en/
 
 <!-- <figure markdown> -->
 
-![Description](img/conversation-buffer-memory.png#only-dark){width=80%}
+![Description](img/conversation-buffer-memory2.png#only-dark){width=80%}
 ![Description](img/conversation-buffer-memory.png#only-light){width=80%}
 
 <br>

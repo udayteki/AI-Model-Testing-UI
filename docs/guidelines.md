@@ -15,7 +15,26 @@ In some nodes, at the top of it, you will see a small gear icon ⚙️, which yo
 
 ---
 
-## Import and Export
+## Features
+
+![Description](img/single_node/features.png#only-light){width=60%}
+![Description](img/single_node/features2.png#only-dark){width=60%}
+
+
+### Code
+
+![Description](img/single_node/code.png#only-light){width=60%}
+![Description](img/single_node/code2.png#only-dark){width=60%}
+
+<br>
+
+API Access: We've started working on API access, which will enable you to integrate our platform with your own applications and workflows. While it's still a work in progress, this feature opens up exciting possibilities for customization and integration.
+
+<br>
+
+---
+
+### Import and Export
 
 Flows can be exported and imported as JSON files. We already have some examples on **Import** option, check them out.
 
@@ -36,12 +55,13 @@ The **Export** option allows you to export your flow setting a name and descript
 
 <br>
 
-The background color can be set to light ☀️ or dark 🌙. The bell icon 🔔 indicates that the component has a notification.
+---
+
+### Dark Mode and Notifications
+
+The background color can be set to dark 🌙 or light ☀️ mode. The bell icon 🔔 indicates that the component has a notification.
 
 <br>
-
-![Description](img/single_node/import_export.png#only-light){width=40%}
-![Description](img/single_node/import_export2.png#only-dark){width=40%}
 
 ---
 
