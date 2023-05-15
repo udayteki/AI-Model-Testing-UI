@@ -36,7 +36,7 @@ API Access: Export Your Flow for Code Usage. The API Access feature allows you t
 
 To access the Python API tab, you can utilize the code snippet in the first tab. You can import the required libraries and define a predict function. This function takes a message as input and performs the following steps:
 
-- Opens the "Conversation_buffer_memory.json" file, which contains the exported flow information.
+- Opens the "``Conversation_buffer_memory.json``" file, which contains the exported flow information.
 - Constructs a payload consisting of the exported flow data and the input message.
 - Sends a POST request to the specified API URL with the payload as JSON.
 - Returns the response as a JSON object, which includes the predicted result.
