@@ -7,16 +7,8 @@
 
 ### ⛓️LangFlow example
 
-![Description](img/news-api.png#only-dark){width=80%}
+![Description](img/news-api2.png#only-dark){width=80%}
 ![Description](img/news-api.png#only-light){width=80%}
-
-<br>
-
-**Chatbot:**
-
-<br>
-
-![Description](img/news-api-output.png){width=50%}
 
 <br>
 

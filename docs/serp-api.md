@@ -13,7 +13,7 @@ To understand more, check out the LangChain [Search](https://python.langchain.co
 
 ### ⛓️LangFlow example
 
-![Description](img/serp-api.png#only-dark){width=80%}
+![Description](img/serp-api2.png#only-dark){width=80%}
 ![Description](img/serp-api.png#only-light){width=80%}
 
 <br>

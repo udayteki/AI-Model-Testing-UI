@@ -22,6 +22,24 @@
 
 We're constantly striving to improve our platform and provide you with the best tools and features. Stay tuned for more updates as we continue to evolve and meet your needs. Thank you for being a part of our journey! ✨🚀
 
+## v0.0.73
+
+### What's Changed
+* Hotfix: Save Flow Bug in Browser by @anovazzi1 in https://github.com/logspace-ai/langflow/pull/305
+* updated pyproject version by @anovazzi1 in https://github.com/logspace-ai/langflow/pull/306
+
+
+**Full Changelog**: https://github.com/logspace-ai/langflow/compare/v0.0.72...v0.0.73
+
+
+## v0.0.72
+
+### What's Changed
+* Hotfix: api code in api button was missing an import by @ogabrielluiz in https://github.com/logspace-ai/langflow/pull/303
+
+
+**Full Changelog**: https://github.com/logspace-ai/langflow/compare/v0.0.71...v0.0.72
+
 ## v0.0.71
 
 ### What's Changed
