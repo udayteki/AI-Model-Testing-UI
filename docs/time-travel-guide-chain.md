@@ -7,7 +7,7 @@
 
 ### ⛓️LangFlow example
 
-![Description](img/time-travel-guide-chain.png#only-dark){width=80%}
+![Description](img/time-travel-guide-chain2.png#only-dark){width=80%}
 ![Description](img/time-travel-guide-chain.png#only-light){width=80%}
 
 <br>

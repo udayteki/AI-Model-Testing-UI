@@ -9,7 +9,7 @@ More information about the [LLMChain](https://python.langchain.com/en/latest/mod
 
 ### ⛓️LangFlow example
 
-![Description](img/llm-chain.png#only-dark){width=80%}
+![Description](img/llm-chain2.png#only-dark){width=80%}
 ![Description](img/llm-chain.png#only-light){width=80%}
 
 <br>

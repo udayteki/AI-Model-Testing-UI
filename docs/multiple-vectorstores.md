@@ -1,4 +1,4 @@
-`VectorStoreRouterAgent` construct an agent that routes between vector stores.
+`VectorStoreRouterAgent` construct an agent that routes between multiple vectorstores.
 
 <br>
 
@@ -9,7 +9,7 @@ For more information about [VectorStoreRouterAgent](https://python.langchain.com
 
 ### ⛓️LangFlow example
 
-![Description](img/multiple-vectorstores.png#only-dark){width=80%}
+![Description](img/multiple-vectorstores2.png#only-dark){width=80%}
 ![Description](img/multiple-vectorstores.png#only-light){width=80%}
 
 <br>
@@ -66,11 +66,11 @@ The `OpenAIEmbeddings`, wrapper around [OpenAI Embeddings](https://platform.open
 
 <br>
 
-`Chroma` vector databases can be used as vector stores to conduct a semantic search or to select examples, thanks to a wrapper around them.
+`Chroma` vector databases can be used as vectorstores to conduct a semantic search or to select examples, thanks to a wrapper around them.
 
 <br>
 
-`VectorStoreInfo` set information about the vector store, such as the name and description.
+`VectorStoreInfo` set information about the vectorstore, such as the name and description.
 
 <br>
 

@@ -1,4 +1,4 @@
-The `VectoStoreAgent`is an agent designed to retrieve information from one or more vector stores, either with or without sources.
+The `VectoStoreAgent`is an agent designed to retrieve information from one or more vectorstores, either with or without sources.
 
 <br>
 
@@ -9,7 +9,7 @@ Check out the [VectoStoreAgent](https://python.langchain.com/en/latest/modules/a
 
 ### ⛓️LangFlow example
 
-![Description](img/vectorstore-agent.png#only-dark){width=80%}
+![Description](img/vectorstore-agent2.png#only-dark){width=80%}
 ![Description](img/vectorstore-agent.png#only-light){width=80%}
 
 <br>
@@ -60,11 +60,11 @@ The `OpenAIEmbeddings`, wrapper around [OpenAI Embeddings](https://platform.open
 
 <br>
 
-`Chroma` vector databases can be used as vector stores to conduct a semantic search or to select examples, thanks to a wrapper around them.
+`Chroma` vector databases can be used as vectorstores to conduct a semantic search or to select examples, thanks to a wrapper around them.
 
 <br>
 
-A `VectorStoreInfo` set information about the vector store, such as the name and description.
+A `VectorStoreInfo` set information about the vectorstore, such as the name and description.
 
 Name used:
 
