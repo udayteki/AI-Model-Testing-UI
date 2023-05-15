@@ -28,9 +28,32 @@ In some nodes, at the top of it, you will see a small gear icon ⚙️, which yo
 
 <br>
 
-API Access: We've started working on API access, which will enable you to integrate our platform with your own applications and workflows. While it's still a work in progress, this feature opens up exciting possibilities for customization and integration.
+API Access: Export Your Flow for Code Usage. The API Access feature allows you to export your flow from the platform and utilize it with your own code. This feature provides two different tabs within the platform, the first being the "Python API" tab and the second being the "Python Code" tab. Each tab offers a unique set of functionalities to integrate the exported flow into your codebase seamlessly.
 
 <br>
+
+**Python API Tab:**
+
+To access the Python API tab, you can utilize the code snippet in the first tab. You can import the required libraries and define a predict function. This function takes a message as input and performs the following steps:
+
+- Opens the "Conversation_buffer_memory.json" file, which contains the exported flow information.
+- Constructs a payload consisting of the exported flow data and the input message.
+- Sends a POST request to the specified API URL with the payload as JSON.
+- Returns the response as a JSON object, which includes the predicted result.
+
+<br>
+
+**Python Code Tab:**
+
+To access the Python Code tab, you can utilize the code snippet in the secon tab. You can import the load_flow_from_json function from the "langflow" library. This function loads the exported flow from the "Conversation_buffer_memory.json" file and assigns it to the variable `flow`. Once the flow is loaded, you can use it as a chain to process input messages. In the provided example, the flow variable is used to process the message "Hey, have you heard of LangFlow?".
+
+<br>
+
+By utilizing the Python Code tab, you can seamlessly integrate the exported flow into your code and leverage its capabilities for natural language processing tasks.
+
+<br>
+
+The API Access feature empowers you to leverage the full potential of your exported flow by seamlessly integrating it into your codebase. Whether you want to incorporate advanced conversational capabilities or automate specific tasks, this feature provides a flexible and efficient solution to enhance your conversational applications.
 
 ---
 
