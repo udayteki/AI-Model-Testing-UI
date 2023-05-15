@@ -45,7 +45,7 @@ To access the Python API tab, you can utilize the code snippet in the first tab.
 
 **Python Code Tab:**
 
-To access the Python Code tab, you can utilize the code snippet in the secon tab. You can import the load_flow_from_json function from the "langflow" library. This function loads the exported flow from the "Conversation_buffer_memory.json" file and assigns it to the variable `flow`. Once the flow is loaded, you can use it as a chain to process input messages. In the provided example, the flow variable is used to process the message "Hey, have you heard of LangFlow?".
+To access the Python Code tab, you can utilize the code snippet in the secon tab. You can import the `load_flow_from_json` function from the "``langflow``" library. This function loads the exported flow from the "``Conversation_buffer_memory.json``" file and assigns it to the variable `flow`. Once the flow is loaded, you can use it as a chain to process input messages. In the provided example, the flow variable is used to process the message "``Hey, have you heard of LangFlow?``".
 
 <br>
 

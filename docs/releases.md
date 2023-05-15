@@ -22,9 +22,23 @@
 
 We're constantly striving to improve our platform and provide you with the best tools and features. Stay tuned for more updates as we continue to evolve and meet your needs. Thank you for being a part of our journey! ✨🚀
 
+## v0.0.71
+
+### What's Changed
+* refactor(loading.py): change instantiate_prompt function signature to include class_object parameter and use it to instantiate the prompt object by @ogabrielluiz in https://github.com/logspace-ai/langflow/pull/302
+
+
+**Full Changelog**: https://github.com/logspace-ai/langflow/compare/v0.0.70...v0.0.71
+
+## v0.0.70
+### What's Changed
+* Hotfix: Temporary fix for intermediate steps by @ogabrielluiz in https://github.com/logspace-ai/langflow/pull/295
+
+
+**Full Changelog**: https://github.com/logspace-ai/langflow/compare/v0.0.69...v0.0.70
 
 ## v0.0.69
-## What's Changed
+### What's Changed
 * disable password copy by @CodeAunt in https://github.com/logspace-ai/langflow/pull/224
 * Fix auto update by @anovazzi1 in https://github.com/logspace-ai/langflow/pull/238
 * UI improvements by @anovazzi1 in https://github.com/logspace-ai/langflow/pull/240
@@ -38,7 +52,7 @@ We're constantly striving to improve our platform and provide you with the best 
 * fixed copy and paste bug by @anovazzi1 in https://github.com/logspace-ai/langflow/pull/286
 * Websocket, cache_manager, API access, Dark mode fixes by @ogabrielluiz in https://github.com/logspace-ai/langflow/pull/285
 
-## New Contributors
+#### New Contributors
 * @CodeAunt made their first contribution in https://github.com/logspace-ai/langflow/pull/224
 * @bobsburgers made their first contribution in https://github.com/logspace-ai/langflow/pull/254
 
