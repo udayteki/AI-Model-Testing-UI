@@ -9,8 +9,8 @@ Check out the [VectoStoreAgent](https://python.langchain.com/en/latest/modules/a
 
 ### ⛓️LangFlow example
 
-![Description](img/vectorstore-agent2.png#only-dark){width=80%}
-![Description](img/vectorstore-agent.png#only-light){width=80%}
+![Description](img/vectorstore-agent2.png#only-dark){width=100%}
+![Description](img/vectorstore-agent.png#only-light){width=100%}
 
 <br>
 
@@ -45,7 +45,7 @@ Separator used:
 Chunk size used:
 
 ```txt
-4000
+2000
 ```
 
 Chunk overlap used:

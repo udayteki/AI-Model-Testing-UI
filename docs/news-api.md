@@ -7,8 +7,8 @@
 
 ### ⛓️LangFlow example
 
-![Description](img/news-api2.png#only-dark){width=80%}
-![Description](img/news-api.png#only-light){width=80%}
+![Description](img/news-api2.png#only-dark){width=100%}
+![Description](img/news-api.png#only-light){width=100%}
 
 <br>
 

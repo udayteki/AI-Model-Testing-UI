@@ -9,8 +9,8 @@ You can check more about the [PyPDFLoader](https://python.langchain.com/en/lates
 
 ### ⛓️LangFlow example
 
-![Description](img/py-pdf-loader2.png#only-dark){width=80%}
-![Description](img/py-pdf-loader.png#only-light){width=80%}
+![Description](img/py-pdf-loader2.png#only-dark){width=100%}
+![Description](img/py-pdf-loader.png#only-light){width=100%}
 
 <br>
 

@@ -9,8 +9,8 @@ To understand more, check out the LangChain [PAL-MATH](https://python.langchain.
 
 ### ⛓️LangFlow example
 
-![Description](img/tool-pal-math2.png#only-dark){width=80%}
-![Description](img/tool-pal-math.png#only-light){width=80%}
+![Description](img/tool-pal-math2.png#only-dark){width=100%}
+![Description](img/tool-pal-math.png#only-light){width=100%}
 
 <br>
 

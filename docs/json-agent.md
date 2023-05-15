@@ -9,8 +9,8 @@ To understand more, check out the LangChain [JsonAgent](https://python.langchain
 
 ### ⛓️LangFlow example
 
-![Description](img/json-agent2.png#only-dark){width=80%}
-![Description](img/json-agent.png#only-light){width=80%}
+![Description](img/json-agent2.png#only-dark){width=100%}
+![Description](img/json-agent.png#only-light){width=100%}
 
 <br>
 

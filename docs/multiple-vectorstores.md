@@ -9,8 +9,8 @@ For more information about [VectorStoreRouterAgent](https://python.langchain.com
 
 ### ⛓️LangFlow example
 
-![Description](img/multiple-vectorstores2.png#only-dark){width=80%}
-![Description](img/multiple-vectorstores.png#only-light){width=80%}
+![Description](img/multiple-vectorstores2.png#only-dark){width=100%}
+![Description](img/multiple-vectorstores.png#only-light){width=100%}
 
 <br>
 
@@ -51,7 +51,7 @@ Separator used:
 Chunk size used:
 
 ```txt
-4000
+2000
 ```
 
 Chunk overlap used:

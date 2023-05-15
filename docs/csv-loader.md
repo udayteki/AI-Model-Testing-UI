@@ -9,8 +9,8 @@ Check out more about the `CSVLoader` in [LangChain](https://python.langchain.com
 
 ### ⛓️LangFlow example
 
-![Description](img/csv-loader2.png#only-dark){width=80%}
-![Description](img/csv-loader.png#only-light){width=80%}
+![Description](img/csv-loader2.png#only-dark){width=100%}
+![Description](img/csv-loader.png#only-light){width=100%}
 
 <br>
 

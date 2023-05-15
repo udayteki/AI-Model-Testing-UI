@@ -23,8 +23,8 @@ Play around with it and see how it works!
 
 ### ⛓️LangFlow example
 
-![Description](img/series-character-chain2.png#only-dark){width=80%}
-![Description](img/series-character-chain.png#only-light){width=80%}
+![Description](img/series-character-chain2.png#only-dark){width=100%}
+![Description](img/series-character-chain.png#only-light){width=100%}
 
 <br>
 

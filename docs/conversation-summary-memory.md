@@ -9,8 +9,8 @@ To understand more, check out the LangChain [ConversationSummaryMemory](https://
 
 ### ⛓️LangFlow example
 
-![Description](img/conversation-summary-memory2.png#only-dark){width=80%}
-![Description](img/conversation-summary-memory.png#only-light){width=80%}
+![Description](img/conversation-summary-memory2.png#only-dark){width=100%}
+![Description](img/conversation-summary-memory.png#only-light){width=100%}
 
 <br>
 

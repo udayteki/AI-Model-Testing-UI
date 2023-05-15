@@ -7,8 +7,8 @@ With `MidJourneyPromptChain`, you can use it to generate new MidJourney prompts.
 
 ### ⛓️LangFlow example
 
-![Description](img/MidJourney-prompt-chain2.png#only-dark){width=80%}
-![Description](img/MidJourney-prompt-chain.png#only-light){width=80%}
+![Description](img/MidJourney-prompt-chain2.png#only-dark){width=100%}
+![Description](img/MidJourney-prompt-chain.png#only-light){width=100%}
 
 <br>
 
@@ -23,7 +23,6 @@ With `MidJourneyPromptChain`, you can use it to generate new MidJourney prompts.
 In the example, we typed the word `Dragon` and the chatbot generated a prompt for the image.
 
 <br>
-
 
 Check out the image created by the prompt [here](https://www.bing.com/images/create/imagine-a-mysterious-forest2c-the-trees-are-tall-an/6440616907a941798a21294c224f089c?id=qCNeV4ysTxKW8xKfqsx4zg%3d%3d&view=detailv2&idpp=genimg&FORM=GCRIDP&mode=overlay){.internal-link target=\_blank}.
 
