@@ -17,7 +17,7 @@ In some nodes, at the top of it, you will see a small gear icon ⚙️, which yo
 
 ## Features
 
-Located in the right top corner of the screen there are some features, as you can see in the image below:
+Located in the right top corner of the screen there are some feature that you can use, such as **Code**, **Import**, **Export**, **Dark Mode** and **Notification**, as you can see in the image below:
 
 <br>
 
@@ -25,6 +25,8 @@ Located in the right top corner of the screen there are some features, as you ca
 ![Description](img/single_node/features2.png#only-dark){width=60%}
 
 <br>
+
+Further down, we will explain each of these features.
 
 ---
 ### Code
@@ -82,15 +84,11 @@ The **Export** option allows you to export your flow setting a name and descript
 | :------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------: |
 | ![Chat](img/import.png#only-light){width=100%}![Chat](img/import2.png#only-dark){width=100%} | ![Chat](img/export.png#only-light){width=100%}![Chat](img/export2.png#only-dark){width=100%} |
 
-<br>
-
 ---
 
 ### Dark Mode and Notifications
 
 The background color can be set to dark 🌙 or light ☀️ mode. The bell icon 🔔 indicates that the component has a notification.
-
-<br>
 
 ---
 
