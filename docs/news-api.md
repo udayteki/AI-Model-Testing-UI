@@ -5,6 +5,7 @@
 ![Description](img/single_node/news_api.png#only-light){width=50%}
 ![Description](img/single_node/news_api2.png#only-dark){width=50%}
 
+---
 ### ⛓️LangFlow example
 
 ![Description](img/news-api2.png#only-dark){width=100%}

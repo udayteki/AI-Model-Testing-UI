@@ -5,8 +5,11 @@
 ![Description](img/single_node/conv_buf_mem.png#only-light){width=50%}
 ![Description](img/single_node/conv_buf_mem2.png#only-dark){width=50%}
 
+<br>
+
 Learn more about the [ConversationBufferMemory](https://python.langchain.com/en/latest/modules/memory/types/buffer.html){.internal-link target=\_blank} in the LangChain documentation.
 
+---
 ### ⛓️LangFlow example
 
 <!-- <figure markdown> -->

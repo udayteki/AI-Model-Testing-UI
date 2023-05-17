@@ -5,7 +5,11 @@ The `JsonAgent` is an agent designed to interact with large JSON/dict objects.
 ![Description](img/single_node/json_ag.png#only-light){width=50%}
 ![Description](img/single_node/json_ag2.png#only-dark){width=50%}
 
+<br>
+
 To understand more, check out the LangChain [JsonAgent](https://python.langchain.com/en/latest/modules/agents/toolkits/examples/json.html){.internal-link target=\_blank} documentation.
+
+---
 
 ### ⛓️LangFlow example
 
@@ -22,7 +26,7 @@ To understand more, check out the LangChain [JsonAgent](https://python.langchain
 
 <br>
 
-Max value length:
+**Max value length**:
 
 ```txt
 400

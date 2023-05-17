@@ -5,7 +5,11 @@ With `PyPDFLoader`, you can load a PDF file with pypdf and chunks at a character
 ![Description](img/single_node/pypdf.png#only-light){width=50%}
 ![Description](img/single_node/pypdf2.png#only-dark){width=50%}
 
+<br>
+
 You can check more about the [PyPDFLoader](https://python.langchain.com/en/latest/modules/indexes/document_loaders/examples/pdf.html?highlight=PDF){.internal-link target=\_blank} in the LangChain documentation.
+
+---
 
 ### ⛓️LangFlow example
 
@@ -36,23 +40,26 @@ Text splitters operate as follows:
 
 - Once a chunk reaches the desired size, make it its piece of text and create a new chunk with some overlap to maintain context.
 
-Separator used:
+
+**Separator used**:
 
 ```txt
 .
 ```
 
-Chunk size used:
+**Chunk size used**:
 
 ```txt
 2000
 ```
 
-Chunk overlap used:
+**Chunk overlap used**:
 
 ```txt
 200
 ```
+
+<br>
 
 The `OpenAIEmbeddings`, wrapper around [OpenAI Embeddings](https://platform.openai.com/docs/guides/embeddings/what-are-embeddings){.internal-link target=\_blank} models. Make sure to get the API key from the LLM provider, in this case [OpenAI](https://platform.openai.com/){.internal-link target=\_blank}.
 
@@ -64,17 +71,21 @@ The `OpenAIEmbeddings`, wrapper around [OpenAI Embeddings](https://platform.open
 
 A `VectorStoreInfo` set information about the vector store, such as the name and description.
 
-Name used:
+<br>
+
+**Name used**:
 
 ```txt
 example
 ```
 
-Description used:
+**Description used**:
 
 ```txt
 USENIX Example Paper.
 ```
+
+<br>
 
 For the example, we used `OpenAI` as the LLM, but you can use any LLM that has an API. Make sure to get the API key from the LLM provider. For example, [OpenAI](https://platform.openai.com/){.internal-link target=\_blank} requires you to create an account to get your API key.
 

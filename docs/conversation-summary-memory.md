@@ -5,7 +5,11 @@
 ![Description](img/single_node/con_sum_mem.png#only-light){width=50%}
 ![Description](img/single_node/conv_sum_me2.png#only-dark){width=50%}
 
+<br>
+
 To understand more, check out the LangChain [ConversationSummaryMemory](https://python.langchain.com/en/latest/modules/memory/types/summary.html){.internal-link target=\_blank} documentation.
+
+---
 
 ### ⛓️LangFlow example
 

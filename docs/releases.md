@@ -22,6 +22,14 @@
 
 We're constantly striving to improve our platform and provide you with the best tools and features. Stay tuned for more updates as we continue to evolve and meet your needs. Thank you for being a part of our journey! ✨🚀
 
+## v0.0.74
+
+### What's Changed
+* Hotfix: saving flow in the browser local storage by @anovazzi1 in https://github.com/logspace-ai/langflow/pull/315
+
+
+**Full Changelog**: https://github.com/logspace-ai/langflow/compare/v0.0.73...v0.0.74
+
 ## v0.0.73
 
 ### What's Changed

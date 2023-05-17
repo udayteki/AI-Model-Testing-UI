@@ -5,8 +5,11 @@ The `LLMChain` is a simple chain that takes in a prompt template, formats it wit
 ![Description](img/single_node/guideline2.png#only-dark){width=50%}
 ![Description](img/single_node/guideline.png#only-light){width=50%}
 
+<br>
+
 More information about the [LLMChain](https://python.langchain.com/en/latest/modules/chains/generic/llm_chain.html){.internal-link target=\_blank} can be found in the LangChain documentation.
 
+---
 ### ⛓️LangFlow example
 
 ![Description](img/llm-chain2.png#only-dark){width=100%}
@@ -22,7 +25,7 @@ The `PromptTemplate` is a simple template that takes in a product name and retur
 
 <br>
 
-Template:
+**Template**:
 
 ```txt
 I want you to act as a naming consultant for new companies.

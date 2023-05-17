@@ -17,10 +17,16 @@ In some nodes, at the top of it, you will see a small gear icon ⚙️, which yo
 
 ## Features
 
+Located in the right top corner of the screen there are some features, as you can see in the image below:
+
+<br>
+
 ![Description](img/single_node/features.png#only-light){width=60%}
 ![Description](img/single_node/features2.png#only-dark){width=60%}
 
+<br>
 
+---
 ### Code
 
 ![Description](img/single_node/code.png#only-light){width=60%}

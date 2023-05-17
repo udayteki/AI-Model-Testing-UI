@@ -5,7 +5,11 @@ The `CSVLoader` loads a CSV file into a list of documents.
 ![Description](img/single_node/csv_loader.png#only-light){width=50%}
 ![Description](img/single_node/csv_loader2.png#only-dark){width=50%}
 
+<br>
+
 Check out more about the `CSVLoader` in [LangChain](https://python.langchain.com/en/latest/modules/indexes/document_loaders/examples/csv.html?highlight=CSV%20loader){.internal-link target=\_blank} documentation.
+
+---
 
 ### ⛓️LangFlow example
 
@@ -36,19 +40,19 @@ Text splitters operate as follows:
 
 - Once a chunk reaches the desired size, make it its piece of text and create a new chunk with some overlap to maintain context.
 
-Separator used:
+**Separator used**:
 
 ```txt
 .
 ```
 
-Chunk size used:
+**Chunk size used**:
 
 ```txt
 2000
 ```
 
-Chunk overlap used:
+**Chunk overlap used**:
 
 ```txt
 200
@@ -73,13 +77,15 @@ The `OpenAIEmbeddings`, wrapper around [OpenAI Embeddings](https://platform.open
 
 A `VectorStoreInfo` set information about the vector store, such as the name and description.
 
-Name used:
+<br>
+
+**Name used**:
 
 ```txt
 organizations-100
 ```
 
-Description used:
+**Description used**:
 
 ```txt
 A table contains 100 companies.

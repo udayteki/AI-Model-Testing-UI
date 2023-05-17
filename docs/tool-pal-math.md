@@ -7,6 +7,10 @@
 
 To understand more, check out the LangChain [PAL-MATH](https://python.langchain.com/en/latest/modules/chains/examples/pal.html?highlight=PAL-MATH){.internal-link target=\_blank} documentation.
 
+<br>
+
+---
+
 ### ⛓️LangFlow example
 
 ![Description](img/tool-pal-math2.png#only-dark){width=100%}
