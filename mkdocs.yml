@@ -14,18 +14,21 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: light blue + dark purple
-      accent: dark blue
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/lightbulb
         name: Switch to light mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: light blue + dark purple
-      accent: dark blue
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/lightbulb-outline
         name: Switch to dark mode
+  font:
+    text: Roboto
+    code: Roboto Mono
   features:
     - announce.dismiss
     # - content.action.edit
@@ -40,8 +43,8 @@ theme:
     - navigation.indexes
     - navigation.instant
     - navigation.prune
-    # - navigation.sections
-    - navigation.tabs
+    - navigation.sections
+    # - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
@@ -77,13 +80,13 @@ plugins:
 
 # Page tree
 nav:
-  - Getting started:
-    - LangFlow: index.md
+  - Getting Started:
+    - What is LangFlow?: langflow.md
     - Installation: installation.md
     - Creating Flows: create-flows.md
     - Guidelines: guidelines.md
   - Examples:
-    - LangFlow Examples: langflow-examples.md
+    - How to Upload Examples?: langflow-examples.md
     - Memories:
       - Conversation Summary Memory: conversation-summary-memory.md
       - Conversation Buffer Memory: conversation-buffer-memory.md  
