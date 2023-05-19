@@ -2512,6 +2512,18 @@ files = [
 ]
 
 [[package]]
+name = "mkdocs-glightbox"
+version = "0.3.4"
+description = "MkDocs plugin supports image lightbox with GLightbox."
+category = "main"
+optional = false
+python-versions = "*"
+files = [
+    {file = "mkdocs-glightbox-0.3.4.tar.gz", hash = "sha256:96aaf98216f83c0d0fad2e42a8d805cfa6329d6ab25b54265012ccb2154010d8"},
+    {file = "mkdocs_glightbox-0.3.4-py3-none-any.whl", hash = "sha256:8f894435b4f75231164e5d9fb023c01e922e6769e74a121e822c4914f310a41d"},
+]
+
+[[package]]
 name = "monotonic"
 version = "1.6"
 description = "An implementation of time.monotonic() for Python 2 & < 3.3"
@@ -5761,4 +5773,4 @@ deploy = ["langchain-serve"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.9"
-content-hash = "ddf4cbde95a8fba8be8376cc2de300a375b0eb16c72226df795acf7d36b53737"
+content-hash = "c2ded4817fbdf08ceeece0ea8c8262e64fc7b028b652d2e5f0882877a3cda97a"
