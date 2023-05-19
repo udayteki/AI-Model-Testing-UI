@@ -68,6 +68,8 @@ nav:
   - Getting Started:
     - What is LangFlow?: langflow.md
     - Installation: installation.md
+    # - Run Locally: locally.md
+    # - Run Docker: local-development.md
     - Creating Flows: create-flows.md
     - Guidelines: guidelines.md
   - Examples:
@@ -98,8 +100,6 @@ nav:
   - Contributing:
     - How to contribute?: contribute.md
     - GitHub Issues: github-issues.md
-    - Run Locally: locally.md
-    - Run Docker: local-development.md
     - Community: community.md    
 
 
