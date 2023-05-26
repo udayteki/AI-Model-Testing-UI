@@ -19,6 +19,7 @@ import ImportModal from "../../../../modals/importModal";
 import ExportModal from "../../../../modals/exportModal";
 import { typesContext } from "../../../../contexts/typesContext";
 import ApiModal from "../../../../modals/ApiModal";
+import ExtraSidebar from "../../../../components/ExtraSidebarComponent";
 
 export default function TabsManagerComponent() {
 	const { flows, addFlow, tabIndex, setTabIndex, uploadFlow, downloadFlow } =
@@ -37,7 +38,13 @@ export default function TabsManagerComponent() {
 	}, [addFlow, flows.length, templates]);
 
 	return (
-		<div className="h-full w-full flex flex-col">
+		<div className="w-full h-full flex grow shrink basis-auto min-h-0 flex-1 overflow-hidden">
+          <ExtraSidebar />
+          {/* Main area */}
+          <main className="w-full flex-1 border-t border-gray-200 dark:border-gray-700 flex">
+            {/* Primary column */}
+            <div className="w-full h-full">
+			<div className="h-full w-full flex flex-col">
 			<div className="w-full flex pr-2 flex-row text-center items-center bg-gray-100 dark:bg-gray-800 px-2">
 				{flows.map((flow, index) => {
 					return (
@@ -124,5 +131,9 @@ export default function TabsManagerComponent() {
 				</ReactFlowProvider>
 			</div>
 		</div>
+            </div>
+          </main>
+        </div>
+		
 	);
 }

@@ -14,6 +14,7 @@ import TabsManagerComponent from "./pages/FlowPage/components/tabsManagerCompone
 import { ErrorBoundary } from "react-error-boundary";
 import CrashErrorComponent from "./components/CrashErrorComponent";
 import { TabsContext } from "./contexts/tabsContext";
+import Router from "./routes";
 
 export default function App() {
   let { setCurrent, setShowSideBar, setIsStackedOpen } =
@@ -122,16 +123,7 @@ export default function App() {
         }}
         FallbackComponent={CrashErrorComponent}
       >
-        <div className="flex grow shrink basis-auto min-h-0 flex-1 overflow-hidden">
-          <ExtraSidebar />
-          {/* Main area */}
-          <main className="min-w-0 flex-1 border-t border-gray-200 dark:border-gray-700 flex">
-            {/* Primary column */}
-            <div className="w-full h-full">
-              <TabsManagerComponent></TabsManagerComponent>
-            </div>
-          </main>
-        </div>
+        <Router></Router>
       </ErrorBoundary>
       <div></div>
       <div className="flex z-40 flex-col-reverse fixed bottom-5 left-5">
