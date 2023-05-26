@@ -71,6 +71,7 @@ nav:
     # - Run Locally: locally.md
     # - Run Docker: local-development.md
     - Creating Flows: create-flows.md
+    - Hugging Face Spaces: hugging-face-spaces.md
     - Guidelines: guidelines.md
   - Examples:
     - How to Upload Examples?: langflow-examples.md
@@ -115,7 +116,9 @@ extra:
 
 # Extensions
 markdown_extensions:
-  - lightgallery
+  - lightgallery:
+      show_description_in_lightgallery: true
+      show_description_as_inline_caption: false
   - abbr
   - admonition
   - attr_list

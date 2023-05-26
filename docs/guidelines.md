@@ -1,12 +1,24 @@
-# 📝 Guidelines
+# Guidelines
 
-## Node
+## Component
+
+A component is a self-contained and reusable building block in software development. It is a modular unit that performs a specific function or task within a larger system. They are created to provide a convenient and straightforward way to work with language models.
+
+<br>
+Component **agents** can refer to an entity that is capable of performing actions or making decisions autonomously or on behalf of someone or something else. In the case of a language model like ChatGPT, the model itself can be considered an agent as it can generate responses and interact with users based on the input it receives.
+
+<br>
+If want to learn more about the components and how they work, make sure to check out the LangChain [documentation](https://docs.langchain.com/docs/category/components){.internal-link target=\_blank} section.
+
+---
+
+## Compenent's Features
 
 During the flow creation process, you will notice a colored circle <span style="color:green">o</span>. Components marked with a red asterisk <span style="color:red">\*</span> must be connected. If you don't connect it, a red line will appear around it. Make the necessary connections to make your flow work. Hovering over the small circle will reveal the component that needs to be connected.
 
 <br>
 
-In some nodes, at the top of it, you will see a small gear icon ⚙️, which you can click to edit the component's parameters. You also have the option to delete it by clicking the trash can icon 🗑️.
+In some components, at the top of it, you will see a small gear icon ⚙️, which you can click to edit the parameters. You also have the option to delete it by clicking the trash can icon 🗑️.
 
 <br>
 
@@ -17,7 +29,7 @@ In some nodes, at the top of it, you will see a small gear icon ⚙️, which yo
 
 ## Features
 
-Located in the right top corner of the screen there are some feature that you can use, such as **Code**, **Import**, **Export**, **Dark Mode** and **Notification**, as you can see in the image below:
+Located in the right top corner of the screen there are some features that you can use, such as **Code**, **Import**, **Export**, **Dark Mode** and **Notification**, as you can see in the image below:
 
 <br>
 
@@ -29,6 +41,7 @@ Located in the right top corner of the screen there are some feature that you ca
 Further down, we will explain each of these features.
 
 ---
+
 ### Code
 
 ![Description](img/single_node/code.png#only-light){width=60%}
@@ -44,7 +57,7 @@ API Access: Export Your Flow for Code Usage. The API Access feature allows you t
 
 To access the Python API tab, you can utilize the code snippet in the first tab. You can import the required libraries and define a predict function. This function takes a message as input and performs the following steps:
 
-- Opens the "``Conversation_buffer_memory.json``" file, which contains the exported flow information.
+- Opens the "`Conversation_buffer_memory.json`" file, which contains the exported flow information.
 - Constructs a payload consisting of the exported flow data and the input message.
 - Sends a POST request to the specified API URL with the payload as JSON.
 - Returns the response as a JSON object, which includes the predicted result.
@@ -53,7 +66,7 @@ To access the Python API tab, you can utilize the code snippet in the first tab.
 
 **Python Code Tab:**
 
-To access the Python Code tab, you can utilize the code snippet in the secon tab. You can import the `load_flow_from_json` function from the "``langflow``" library. This function loads the exported flow from the "``Conversation_buffer_memory.json``" file and assigns it to the variable `flow`. Once the flow is loaded, you can use it as a chain to process input messages. In the provided example, the flow variable is used to process the message "``Hey, have you heard of LangFlow?``".
+To access the Python Code tab, you can utilize the code snippet in the secon tab. You can import the `load_flow_from_json` function from the "`langflow`" library. This function loads the exported flow from the "`Conversation_buffer_memory.json`" file and assigns it to the variable `flow`. Once the flow is loaded, you can use it as a chain to process input messages. In the provided example, the flow variable is used to process the message "`Hey, have you heard of LangFlow?`".
 
 <br>
 
@@ -92,9 +105,9 @@ The background color can be set to dark 🌙 or light ☀️ mode. The bell icon
 
 ---
 
-## Chatbot
+## Chat
 
-A chat icon 💬 located in the bottom right corner of the screen allows you to chat with a bot. When you click over 💬 a new screen will pop up. You can start a conversation with the bot by typing in the text box and pressing enter. The bot will respond to your message. In the top right corner of the screen, you will see an eraser icon ![Eraser](img/eraser.png#only-light){width=2.5%} ![Eraser](img/eraser2.png#only-dark){width=2.5%}. Clicking on it will clear the chat history.
+A chat icon 💬 located in the bottom right corner of the screen allows you to chat. When you click over 💬 a new screen will pop up. You can start a conversation by typing in the text box and pressing enter. The chat will respond to your message. In the top right corner of the screen, you will see an eraser icon ![Eraser](img/eraser.png#only-light){width=2.5%} ![Eraser](img/eraser2.png#only-dark){width=2.5%}. Clicking on it will clear the chat history.
 
 <br>
 

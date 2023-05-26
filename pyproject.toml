@@ -67,6 +67,21 @@ pandas-stubs = "^2.0.0.230412"
 types-pillow = "^9.5.0.2"
 
 
+
+[tool.poetry.group.docs.dependencies]
+mkdocs-glightbox = "^0.3.4"
+mkdocs-material-extensions = "^1.1.1"
+materialx = "^0.0.0.dev1"
+mkdocs-macros-plugin = "^1.0.1"
+mkdocs = "^1.4.3"
+pymdown-extensions = "^10.0.1"
+mkdocs-material = "^9.1.14"
+material = "^0.1"
+lightgallery = "^0.5"
+mkdocs-minify-plugin = "^0.6.4"
+mkdocs-bootswatch-classic = "^1.0"
+mkdocs-gitbook = "^0.0.1"
+
 [tool.poetry.extras]
 deploy = ["langchain-serve"]
 
