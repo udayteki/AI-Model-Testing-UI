@@ -52,6 +52,7 @@ llms:
   - ChatOpenAI
   - HuggingFaceHub
   - LlamaCpp
+  - OpenLM
 memories:
   - ConversationBufferMemory
   - ConversationSummaryMemory
